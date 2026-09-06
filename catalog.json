@@ -3,6 +3,21 @@
   "maps": [
     {
       "publisher": "cloudflare-test",
+      "slug": "credential-check-20260906",
+      "name": "DGHUD Live Export Test",
+      "author": "DGHUD acceptance test",
+      "description": "End-to-end validation map for Dragons Gate HUD library export and download.",
+      "version": "1.0.0",
+      "areas": [
+        "1"
+      ],
+      "room_count": 83,
+      "bytes": 37912,
+      "download_url": "https://raw.githubusercontent.com/wizzydizzy-ctrl/dragons-gate-map-library/main/maps/cloudflare-test/credential-check-20260906.json",
+      "sha256": "bde4c5cc744edb81f48df4afd9324a58c142948a37bf006b8536d9479ade34fa"
+    },
+    {
+      "publisher": "cloudflare-test",
       "slug": "roundtrip-20260906f",
       "name": "DGHUD Live Export Test",
       "author": "DGHUD acceptance test",
