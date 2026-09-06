@@ -2,6 +2,21 @@
   "schema": 1,
   "maps": [
     {
+      "publisher": "cloudflare-test",
+      "slug": "roundtrip-20260906f",
+      "name": "DGHUD Live Export Test",
+      "author": "DGHUD acceptance test",
+      "description": "End-to-end validation map for Dragons Gate HUD library export and download.",
+      "version": "1.0.0",
+      "areas": [
+        "1"
+      ],
+      "room_count": 83,
+      "bytes": 37899,
+      "download_url": "https://raw.githubusercontent.com/wizzydizzy-ctrl/dragons-gate-map-library/main/maps/cloudflare-test/roundtrip-20260906f.json",
+      "sha256": "6253b7362a5cf4252d48ad2f55776ddaf5f6e34b7f8ce8cd86a6058847a9c1c9"
+    },
+    {
       "publisher": "wizzydizzy",
       "slug": "livetest141",
       "name": "DGHUD Live Export Test",
