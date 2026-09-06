@@ -78,7 +78,12 @@ export async function publishPullRequest(env, submission) {
 export async function publishDiagnosticIssue(env, report) {
   if (!env.GITHUB_TOKEN) throw new SubmissionError("diagnostic service is not configured", 503)
   const client=githubClient(env)
-  const lines=["Anonymous DGHUD diagnostic report.","",`Report ID: \`${report.request_id}\`` ,`Component: \`${report.component}\``,`HUD: \`${report.edition} ${report.version}\``,`Mudlet: \`${report.mudlet_version}\``,"","### Error","```text",report.message,"```","","### Safe diagnostic details","```text",report.details,"```","","This report was submitted from the HUD without a GitHub account. The client removes chat, room prose, credentials, account names, IP addresses, and command history before submission."]
-  const issue=await client.call("/issues",{method:"POST",body:JSON.stringify({title:`DGHUD diagnostic: ${report.component} (${report.request_id.slice(0,8)})`,body:lines.join("\n")})})
-  return {issue_url:issue.html_url,number:issue.number}
+  const baseBranch=env.GITHUB_BASE_BRANCH || "main"; const ref=await client.call(`/git/ref/heads/${encodeURIComponent(baseBranch)}`); const commit=await client.call(`/git/commits/${ref.object.sha}`)
+  const raw=`${JSON.stringify({...report,privacy_notice:"Submitted anonymously after player consent. Sanitized by the HUD and validated by the service."},null,2)}\n`
+  const blob=await client.call("/git/blobs",{method:"POST",body:JSON.stringify({content:raw,encoding:"utf-8"})})
+  const tree=await client.call("/git/trees",{method:"POST",body:JSON.stringify({base_tree:commit.tree.sha,tree:[{path:`diagnostics/pending/${report.request_id}.json`,mode:"100644",type:"blob",sha:blob.sha}]})})
+  const created=await client.call("/git/commits",{method:"POST",body:JSON.stringify({message:`Diagnostic: ${report.component} (${report.request_id.slice(0,8)})`,tree:tree.sha,parents:[ref.object.sha]})})
+  const branch=`diagnostics/${report.request_id.toLowerCase()}`; await client.call("/git/refs",{method:"POST",body:JSON.stringify({ref:`refs/heads/${branch}`,sha:created.sha})})
+  const pr=await client.call("/pulls",{method:"POST",body:JSON.stringify({title:`DGHUD diagnostic: ${report.component} (${report.request_id.slice(0,8)})`,head:branch,base:baseBranch,body:"Privacy-safe anonymous HUD diagnostic. Review and close or merge after triage."})})
+  return {pull_request_url:pr.html_url,number:pr.number}
 }
