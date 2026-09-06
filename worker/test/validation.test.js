@@ -1,6 +1,6 @@
 import assert from "node:assert/strict"
 import test from "node:test"
-import { catalogRecord, validateAndNormalizeMap } from "../src/validation.js"
+import { catalogRecord, validateAndNormalizeMap, validateDiagnostic } from "../src/validation.js"
 
 const valid = () => ({
   publisher: "Map Maker",
@@ -42,4 +42,11 @@ test("builds a catalog record compatible with the Python validator", async () =>
   assert.equal(record.room_count, 2)
   assert.equal(record.areas[0], "7")
   assert.match(record.sha256, /^[a-f0-9]{64}$/)
+})
+
+test("accepts only bounded sanitized anonymous diagnostics", () => {
+  const report=validateDiagnostic({component:"map_import",edition:"player",version:"0.2.147",mudlet_version:"5.0.1",message:"room validation failed",details:"current_room=199\nlast_status=import"},"report-1")
+  assert.equal(report.request_id,"report-1")
+  assert.throws(()=>validateDiagnostic({...report,token:"secret"},"x"),/unsupported field/)
+  assert.throws(()=>validateDiagnostic({component:"map",edition:"player",version:"1",mudlet_version:"5",message:"failed",details:"password=secret"},"x"),/sensitive/)
 })

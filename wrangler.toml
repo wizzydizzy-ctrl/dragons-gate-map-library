@@ -8,6 +8,10 @@ GITHUB_OWNER = "wizzydizzy-ctrl"
 GITHUB_REPO = "dragons-gate-map-library"
 GITHUB_BASE_BRANCH = "main"
 
+[[kv_namespaces]]
+binding = "DGHUD_DIAGNOSTIC_LIMITS"
+id = "5f7b40dcff824c3f8341955e22aaef39"
+
 # Configure Cloudflare's rate-limiting rule for POST /v1/maps before production.
 # Store the GitHub fine-grained token only as a Worker secret:
 #   npx wrangler secret put GITHUB_TOKEN

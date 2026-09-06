@@ -74,3 +74,11 @@ export async function publishPullRequest(env, submission) {
   }) })
   return { pull_request_url: pr.html_url, number: pr.number, publisher: submission.publisher, slug: finalSlug }
 }
+
+export async function publishDiagnosticIssue(env, report) {
+  if (!env.GITHUB_TOKEN) throw new SubmissionError("diagnostic service is not configured", 503)
+  const client=githubClient(env)
+  const lines=["Anonymous DGHUD diagnostic report.","",`Report ID: \`${report.request_id}\`` ,`Component: \`${report.component}\``,`HUD: \`${report.edition} ${report.version}\``,`Mudlet: \`${report.mudlet_version}\``,"","### Error","```text",report.message,"```","","### Safe diagnostic details","```text",report.details,"```","","This report was submitted from the HUD without a GitHub account. The client removes chat, room prose, credentials, account names, IP addresses, and command history before submission."]
+  const issue=await client.call("/issues",{method:"POST",body:JSON.stringify({title:`DGHUD diagnostic: ${report.component} (${report.request_id.slice(0,8)})`,body:lines.join("\n")})})
+  return {issue_url:issue.html_url,number:issue.number}
+}

@@ -113,3 +113,16 @@ export async function catalogRecordV2(map, publisher, slug, raw, repository) {
     subareas: [...new Set(map.rooms.map(room => String(room.partition ?? "unknown")))].sort()
   }
 }
+
+export function validateDiagnostic(input, requestId) {
+  if (!input || typeof input!=="object" || Array.isArray(input)) throw new SubmissionError("diagnostic body must be an object")
+  const allowed=new Set(["component","edition","version","mudlet_version","message","details"])
+  for (const key of Object.keys(input)) if (!allowed.has(key)) throw new SubmissionError(`diagnostic contains unsupported field ${key}`)
+  const plain=(value,label,max) => { const text=String(value || "").trim(); if (!text || text.length>max || /[\u0000-\u0008\u000b\u000c\u000e-\u001f]/.test(text)) throw new SubmissionError(`${label} is invalid`); return text }
+  const component=plain(input.component,"component",40).toLowerCase()
+  if (!/^[a-z0-9_-]+$/.test(component)) throw new SubmissionError("component is invalid")
+  const report={request_id:requestId,component,edition:plain(input.edition,"edition",16),version:plain(input.version,"version",32),mudlet_version:plain(input.mudlet_version,"Mudlet version",40),message:plain(input.message,"message",500),details:plain(input.details,"details",12000)}
+  const forbidden=/(password|username|account|authorization|bearer|token|api[_ -]?key|ip address|chat history|room prose)\s*[:=]/i
+  if (forbidden.test(report.message) || forbidden.test(report.details)) throw new SubmissionError("diagnostic appears to contain sensitive fields")
+  return report
+}
