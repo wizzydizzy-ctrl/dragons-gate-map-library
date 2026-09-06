@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, pathlib, re, sys
+import hashlib, json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DIRECTIONS = {"n","ne","e","se","s","sw","w","nw","up","down","in","out"}
@@ -35,7 +35,9 @@ def validate(path):
             edges+=1; command=edge.get("command","")
             if edge.get("to") not in ids or not isinstance(command,str) or not command.strip() or len(command)>160: fail(path,"unsafe special exit")
     if edges>100000: fail(path,"too many edges")
-    return {"publisher":publisher,"slug":path.stem,"title":data.get("title",path.stem),"creator":provenance["author"],"rooms":len(rooms),"derived_from":provenance.get("derived_from")}
+    raw=path.read_bytes()
+    areas=sorted({str(room.get("area","unknown")) for room in rooms})
+    return {"publisher":publisher,"slug":path.stem,"name":data.get("title",path.stem),"author":provenance["author"],"description":data.get("description",""),"version":str(data.get("version","1.0.0")),"areas":areas,"room_count":len(rooms),"bytes":len(raw),"download_url":f"https://raw.githubusercontent.com/wizzydizzy-ctrl/dragons-gate-map-library/main/maps/{publisher}/{path.stem}.json","sha256":hashlib.sha256(raw).hexdigest()}
 
 def main():
     records=[]
