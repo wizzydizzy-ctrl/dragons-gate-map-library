@@ -1,0 +1,11 @@
+{
+  "name": "dragons-gate-map-library-submitter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test worker/test/*.test.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.33.1"
+  }
+}
