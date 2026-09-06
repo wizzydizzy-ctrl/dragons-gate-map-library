@@ -17,6 +17,21 @@
       "sha256": "6253b7362a5cf4252d48ad2f55776ddaf5f6e34b7f8ce8cd86a6058847a9c1c9"
     },
     {
+      "publisher": "deklan-marrowen",
+      "slug": "all-20260906-191740",
+      "name": "all-20260906-191740",
+      "author": "Deklan Marrowen",
+      "description": "",
+      "version": "1.0.0",
+      "areas": [
+        "1"
+      ],
+      "room_count": 695,
+      "bytes": 321375,
+      "download_url": "https://raw.githubusercontent.com/wizzydizzy-ctrl/dragons-gate-map-library/main/maps/deklan-marrowen/all-20260906-191740.json",
+      "sha256": "a231a06abdec7176554ab47c050ea34571b0d1b576f17737530e400f6568ab82"
+    },
+    {
       "publisher": "wizzydizzy",
       "slug": "livetest141",
       "name": "DGHUD Live Export Test",
