@@ -45,6 +45,13 @@ export function validateAndNormalizeMap(input, requestId) {
   map.provenance.verified = false
   map.provenance.submission_id = requestId
 
+  const selection = map.provenance.selection && typeof map.provenance.selection === "object" ? map.provenance.selection : {}
+  const scope = map.provenance.scope || selection.scope || "all"
+  if (!new Set(["all", "area", "subarea"]).has(scope)) throw new SubmissionError("map scope is invalid")
+  map.provenance.scope = scope
+  map.provenance.selection = { scope }
+  for (const key of ["area", "partition", "area_name", "subarea_name"]) if (selection[key] != null) map.provenance.selection[key] = safeText(String(selection[key]), key.replace("_", " "), key.endsWith("name") ? 100 : 160)
+
   if (!Array.isArray(map.rooms) || map.rooms.length < 1 || map.rooms.length > 20000) throw new SubmissionError("invalid room collection")
   const ids = new Set()
   const coordinates = new Set()
@@ -91,5 +98,18 @@ export async function catalogRecord(map, publisher, slug, raw, repository) {
     bytes: new TextEncoder().encode(raw).length,
     download_url: `https://raw.githubusercontent.com/${repository}/main/maps/${publisher}/${slug}.json`,
     sha256
+  }
+}
+
+export async function catalogRecordV2(map, publisher, slug, raw, repository) {
+  const base = await catalogRecord(map, publisher, slug, raw, repository)
+  const selection = map.provenance.selection || {}
+  return {
+    ...base,
+    scope: map.provenance.scope === "area" ? "area" : map.provenance.scope === "subarea" ? "subarea" : "full_map",
+    map_name: map.title,
+    area_name: selection.area_name || null,
+    subarea_name: selection.subarea_name || null,
+    subareas: [...new Set(map.rooms.map(room => String(room.partition ?? "unknown")))].sort()
   }
 }

@@ -1,4 +1,4 @@
-import { catalogRecord, SubmissionError, validateAndNormalizeMap } from "./validation.js"
+import { catalogRecord, catalogRecordV2, SubmissionError, validateAndNormalizeMap } from "./validation.js"
 import { publishPullRequest } from "./github.js"
 
 const json = (body, status = 200) => new Response(JSON.stringify(body), {
@@ -21,7 +21,8 @@ export async function handleRequest(request, env) {
     const result = await publishPullRequest(env, {
       ...normalized,
       requestId,
-      makeRecord: (slug, formattedRaw, repository) => catalogRecord(normalized.map, normalized.publisher, slug, formattedRaw, repository)
+      makeRecord: (slug, formattedRaw, repository) => catalogRecord(normalized.map, normalized.publisher, slug, formattedRaw, repository),
+      makeRecordV2: (slug, formattedRaw, repository) => catalogRecordV2(normalized.map, normalized.publisher, slug, formattedRaw, repository)
     })
     return json({ ok: true, submission_id: requestId, status: "pending_review", ...result }, 202)
   } catch (error) {

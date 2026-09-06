@@ -30,25 +30,33 @@ export async function publishPullRequest(env, submission) {
   const commit = await client.call(`/git/commits/${ref.object.sha}`)
   const catalogFile = await client.call(`/contents/catalog.json?ref=${encodeURIComponent(baseBranch)}`)
   const catalog = JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(catalogFile.content.replace(/\n/g, "")), c => c.charCodeAt(0))))
+  let catalogV2 = { schema: 2, maps: [] }
+  try { const file = await client.call(`/contents/catalog-v2.json?ref=${encodeURIComponent(baseBranch)}`); catalogV2 = JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(file.content.replace(/\n/g, "")), c => c.charCodeAt(0)))) } catch (_) {}
 
   const existing = catalog.maps.find(item => item.publisher === submission.publisher && item.slug === submission.slug)
   const finalSlug = existing ? `${submission.slug}-${submission.requestId.slice(0, 8).toLowerCase()}` : submission.slug
   submission.map.provenance.slug = finalSlug
   const mapRaw = `${JSON.stringify(submission.map, null, 2)}\n`
   const record = await submission.makeRecord(finalSlug, mapRaw, client.repository)
+  const recordV2 = await submission.makeRecordV2(finalSlug, mapRaw, client.repository)
   catalog.maps.push(record)
+  catalogV2.maps.push(recordV2)
   catalog.maps.sort((a, b) => `${a.publisher}/${a.slug}`.localeCompare(`${b.publisher}/${b.slug}`))
   const catalogRaw = `${JSON.stringify(catalog, null, 2)}\n`
+  catalogV2.maps.sort((a, b) => `${a.publisher}/${a.slug}`.localeCompare(`${b.publisher}/${b.slug}`))
+  const catalogV2Raw = `${JSON.stringify(catalogV2, null, 2)}\n`
 
-  const [mapBlob, catalogBlob] = await Promise.all([
+  const [mapBlob, catalogBlob, catalogV2Blob] = await Promise.all([
     client.call("/git/blobs", { method: "POST", body: JSON.stringify({ content: mapRaw, encoding: "utf-8" }) }),
-    client.call("/git/blobs", { method: "POST", body: JSON.stringify({ content: catalogRaw, encoding: "utf-8" }) })
+    client.call("/git/blobs", { method: "POST", body: JSON.stringify({ content: catalogRaw, encoding: "utf-8" }) }),
+    client.call("/git/blobs", { method: "POST", body: JSON.stringify({ content: catalogV2Raw, encoding: "utf-8" }) })
   ])
   const tree = await client.call("/git/trees", { method: "POST", body: JSON.stringify({
     base_tree: commit.tree.sha,
     tree: [
       { path: `maps/${submission.publisher}/${finalSlug}.json`, mode: "100644", type: "blob", sha: mapBlob.sha },
-      { path: "catalog.json", mode: "100644", type: "blob", sha: catalogBlob.sha }
+      { path: "catalog.json", mode: "100644", type: "blob", sha: catalogBlob.sha },
+      { path: "catalog-v2.json", mode: "100644", type: "blob", sha: catalogV2Blob.sha }
     ]
   }) })
   const newCommit = await client.call("/git/commits", { method: "POST", body: JSON.stringify({

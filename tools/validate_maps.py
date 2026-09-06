@@ -37,12 +37,18 @@ def validate(path):
     if edges>100000: fail(path,"too many edges")
     raw=path.read_bytes()
     areas=sorted({str(room.get("area","unknown")) for room in rooms})
-    return {"publisher":publisher,"slug":path.stem,"name":data.get("title",path.stem),"author":provenance["author"],"description":data.get("description",""),"version":str(data.get("version","1.0.0")),"areas":areas,"room_count":len(rooms),"bytes":len(raw),"download_url":f"https://raw.githubusercontent.com/wizzydizzy-ctrl/dragons-gate-map-library/main/maps/{publisher}/{path.stem}.json","sha256":hashlib.sha256(raw).hexdigest()}
+    base={"publisher":publisher,"slug":path.stem,"name":data.get("title",path.stem),"author":provenance["author"],"description":data.get("description",""),"version":str(data.get("version","1.0.0")),"areas":areas,"room_count":len(rooms),"bytes":len(raw),"download_url":f"https://raw.githubusercontent.com/wizzydizzy-ctrl/dragons-gate-map-library/main/maps/{publisher}/{path.stem}.json","sha256":hashlib.sha256(raw).hexdigest()}
+    selection=provenance.get("selection") if isinstance(provenance.get("selection"),dict) else {}
+    scope={"all":"full_map","area":"area","subarea":"subarea"}.get(provenance.get("scope","all"),"full_map")
+    detailed={**base,"scope":scope,"map_name":data.get("title",path.stem),"area_name":selection.get("area_name"),"subarea_name":selection.get("subarea_name"),"subareas":sorted({str(room.get("partition","unknown")) for room in rooms})}
+    return base,detailed
 
 def main():
-    records=[]
-    for path in sorted((ROOT/"maps").glob("*/*.json")): records.append(validate(path))
+    records=[]; detailed=[]
+    for path in sorted((ROOT/"maps").glob("*/*.json")):
+        base,v2=validate(path); records.append(base); detailed.append(v2)
     (ROOT/"catalog.json").write_text(json.dumps({"schema":1,"maps":records},indent=2)+"\n")
+    (ROOT/"catalog-v2.json").write_text(json.dumps({"schema":2,"maps":detailed},indent=2)+"\n")
     print(f"validated {len(records)} maps")
 
 if __name__ == "__main__":
