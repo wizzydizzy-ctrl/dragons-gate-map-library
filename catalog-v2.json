@@ -17,8 +17,6 @@
       "sha256": "6253b7362a5cf4252d48ad2f55776ddaf5f6e34b7f8ce8cd86a6058847a9c1c9",
       "scope": "full_map",
       "map_name": "DGHUD Live Export Test",
-      "area_name": null,
-      "subarea_name": null,
       "subareas": [
         "1"
       ]
@@ -39,8 +37,6 @@
       "sha256": "0c774477094fe9c437f7ff358adafd3094cbd389de14bf0ca6808da2c37292fd",
       "scope": "full_map",
       "map_name": "DGHUD Live Export Test",
-      "area_name": null,
-      "subarea_name": null,
       "subareas": [
         "1"
       ]

@@ -86,7 +86,7 @@ export function validateAndNormalizeMap(input, requestId) {
 export async function catalogRecord(map, publisher, slug, raw, repository) {
   const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(raw))
   const sha256 = [...new Uint8Array(digest)].map(byte => byte.toString(16).padStart(2, "0")).join("")
-  return {
+  const record = {
     publisher,
     slug,
     name: map.title,
@@ -99,19 +99,21 @@ export async function catalogRecord(map, publisher, slug, raw, repository) {
     download_url: `https://raw.githubusercontent.com/${repository}/main/maps/${publisher}/${slug}.json`,
     sha256
   }
+  return record
 }
 
 export async function catalogRecordV2(map, publisher, slug, raw, repository) {
   const base = await catalogRecord(map, publisher, slug, raw, repository)
   const selection = map.provenance.selection || {}
-  return {
+  const record = {
     ...base,
     scope: map.provenance.scope === "area" ? "area" : map.provenance.scope === "subarea" ? "subarea" : "full_map",
     map_name: map.title,
-    area_name: selection.area_name || null,
-    subarea_name: selection.subarea_name || null,
     subareas: [...new Set(map.rooms.map(room => String(room.partition ?? "unknown")))].sort()
   }
+  if (selection.area_name) record.area_name = selection.area_name
+  if (selection.subarea_name) record.subarea_name = selection.subarea_name
+  return record
 }
 
 export function validateDiagnostic(input, requestId) {
