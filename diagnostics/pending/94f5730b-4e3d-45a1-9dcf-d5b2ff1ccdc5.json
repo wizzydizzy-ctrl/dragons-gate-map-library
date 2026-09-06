@@ -1,0 +1,10 @@
+{
+  "request_id": "94f5730b-4e3d-45a1-9dcf-d5b2ff1ccdc5",
+  "component": "map_library",
+  "edition": "player",
+  "version": "0.2.147",
+  "mudlet_version": "table: 0x88ee22dc0",
+  "message": "invalid map catalog: maps[1].area_name is invalid",
+  "details": "{\"generated_epoch\":1788736696,\"events\":[{\"message\":\"invalid map catalog: maps[1].area_name is invalid\",\"epoch\":1788736677,\"category\":\"map_library\"},{\"message\":\"invalid map catalog: maps[1].area_name is invalid\",\"epoch\":1788736689,\"category\":\"map_library\"},{\"message\":\"invalid map catalog: maps[1].area_name is invalid\",\"epoch\":1788736696,\"category\":\"map_library\"}],\"context\":{\"operation\":\"browse\",\"stage\":\"validation\"},\"category\":\"map_library\"}",
+  "privacy_notice": "Submitted anonymously after player consent. Sanitized by the HUD and validated by the service."
+}
