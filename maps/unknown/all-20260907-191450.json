@@ -1,0 +1,3616 @@
+{
+  "rooms": [
+    {
+      "poi": [],
+      "id": 2805,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": -2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2806,
+          "direction": "e"
+        },
+        {
+          "to": 2817,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2806,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2807
+        }
+      ],
+      "flags": [],
+      "y": 6,
+      "x": 0,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2808,
+          "direction": "e"
+        },
+        {
+          "to": 2805,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2807,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2806
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 8,
+      "x": 0,
+      "name": "Treehaven Bank.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2808,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2809,
+          "direction": "n"
+        },
+        {
+          "to": 2821,
+          "direction": "ne"
+        },
+        {
+          "to": 2823,
+          "direction": "se"
+        },
+        {
+          "to": 2806,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2809,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": 2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2821,
+          "direction": "e"
+        },
+        {
+          "to": 2810,
+          "direction": "n"
+        },
+        {
+          "to": 2808,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2810,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2818
+        }
+      ],
+      "flags": [],
+      "y": 10,
+      "x": 2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2811,
+          "direction": "n"
+        },
+        {
+          "to": 2809,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2811,
+      "special_exits": [],
+      "flags": [],
+      "y": 12,
+      "x": 2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2810,
+          "direction": "s"
+        },
+        {
+          "to": 2812,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2812,
+      "special_exits": [],
+      "flags": [],
+      "y": 12,
+      "x": 0,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2811,
+          "direction": "e"
+        },
+        {
+          "to": 2834,
+          "direction": "n"
+        },
+        {
+          "to": 2813,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2813,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2819
+        }
+      ],
+      "flags": [],
+      "y": 12,
+      "x": -2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2812,
+          "direction": "e"
+        },
+        {
+          "to": 2814,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2814,
+      "special_exits": [],
+      "flags": [],
+      "y": 12,
+      "x": -4,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2813,
+          "direction": "e"
+        },
+        {
+          "to": 2876,
+          "direction": "nw"
+        },
+        {
+          "to": 2815,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2815,
+      "special_exits": [
+        {
+          "command": "go double",
+          "to": 6229
+        }
+      ],
+      "flags": [],
+      "y": 10,
+      "x": -4,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2814,
+          "direction": "n"
+        },
+        {
+          "to": 2816,
+          "direction": "s"
+        },
+        {
+          "to": 2869,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2816,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2820
+        }
+      ],
+      "flags": [],
+      "y": 8,
+      "x": -4,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2815,
+          "direction": "n"
+        },
+        {
+          "to": 2817,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2817,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": -4,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2805,
+          "direction": "e"
+        },
+        {
+          "to": 2816,
+          "direction": "n"
+        },
+        {
+          "to": 2826,
+          "direction": "s"
+        },
+        {
+          "to": 2866,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2818,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2810
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 10,
+      "x": 4,
+      "name": "Firrek's Foods.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2819,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2813
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 14,
+      "x": -2,
+      "name": "Archer's Outlet.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2820,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2816
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 8,
+      "x": -6,
+      "name": "Forest's Friends.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2821,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": 4,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2822,
+          "direction": "se"
+        },
+        {
+          "to": 2808,
+          "direction": "sw"
+        },
+        {
+          "to": 2809,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2822,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2824
+        }
+      ],
+      "flags": [],
+      "y": 6,
+      "x": 6,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2899,
+          "direction": "e"
+        },
+        {
+          "to": 2821,
+          "direction": "nw"
+        },
+        {
+          "to": 2823,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2823,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2825
+        }
+      ],
+      "flags": [],
+      "y": 4,
+      "x": 4,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2822,
+          "direction": "ne"
+        },
+        {
+          "to": 2808,
+          "direction": "nw"
+        },
+        {
+          "to": 2885,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2824,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2822
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 8,
+      "x": 8,
+      "name": "General Store.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2825,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2823
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 4,
+      "x": 6,
+      "name": "Iknite's Lights.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2826,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": -4,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2817,
+          "direction": "n"
+        },
+        {
+          "to": 2827,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2827,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2831
+        }
+      ],
+      "flags": [],
+      "y": 2,
+      "x": -4,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2826,
+          "direction": "n"
+        },
+        {
+          "to": 2828,
+          "direction": "se"
+        },
+        {
+          "to": 2830,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2828,
+      "special_exits": [
+        {
+          "command": "go tent",
+          "to": 2832
+        }
+      ],
+      "flags": [],
+      "y": -3,
+      "x": -2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2882,
+          "direction": "e"
+        },
+        {
+          "to": 2827,
+          "direction": "nw"
+        },
+        {
+          "to": 2829,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2829,
+      "special_exits": [],
+      "flags": [],
+      "y": -5,
+      "x": -4,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2828,
+          "direction": "ne"
+        },
+        {
+          "to": 2830,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2830,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2833
+        }
+      ],
+      "flags": [],
+      "y": -3,
+      "x": -6,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2827,
+          "direction": "ne"
+        },
+        {
+          "to": 2850,
+          "direction": "nw"
+        },
+        {
+          "to": 2829,
+          "direction": "se"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2831,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2827
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 2,
+      "x": -2,
+      "name": "Kora's Shop.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2832,
+      "special_exits": [
+        {
+          "command": "go exit",
+          "to": 2828
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -5,
+      "x": 0,
+      "name": "Hiram's Tent.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2833,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2830
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -5,
+      "x": -6,
+      "name": "The Concoction Connection.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2834,
+      "special_exits": [],
+      "flags": [],
+      "y": 14,
+      "x": 0,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2835,
+          "direction": "n"
+        },
+        {
+          "to": 2812,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2835,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2843
+        }
+      ],
+      "flags": [],
+      "y": 16,
+      "x": 0,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2836,
+          "direction": "e"
+        },
+        {
+          "to": 2834,
+          "direction": "s"
+        },
+        {
+          "to": 2842,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2836,
+      "special_exits": [
+        {
+          "command": "go ladder",
+          "to": 2952
+        }
+      ],
+      "flags": [],
+      "y": 16,
+      "x": 2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2837,
+          "direction": "n"
+        },
+        {
+          "to": 2835,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2837,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2847
+        }
+      ],
+      "flags": [],
+      "y": 18,
+      "x": 2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2838,
+          "direction": "n"
+        },
+        {
+          "to": 2836,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2838,
+      "special_exits": [],
+      "flags": [],
+      "y": 20,
+      "x": 2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2837,
+          "direction": "s"
+        },
+        {
+          "to": 2839,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2839,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2848
+        }
+      ],
+      "flags": [],
+      "y": 20,
+      "x": 0,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2838,
+          "direction": "e"
+        },
+        {
+          "to": 2840,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2840,
+      "special_exits": [],
+      "flags": [],
+      "y": 20,
+      "x": -2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2839,
+          "direction": "e"
+        },
+        {
+          "to": 2841,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2841,
+      "special_exits": [],
+      "flags": [],
+      "y": 18,
+      "x": -2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2840,
+          "direction": "n"
+        },
+        {
+          "to": 2842,
+          "direction": "s"
+        },
+        {
+          "to": 2879,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2842,
+      "special_exits": [],
+      "flags": [],
+      "y": 16,
+      "x": -2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2835,
+          "direction": "e"
+        },
+        {
+          "to": 2841,
+          "direction": "n"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2843,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2835
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 12,
+      "x": 6,
+      "name": "Meeting Place Tavern.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2844,
+          "direction": "e"
+        },
+        {
+          "to": 2845,
+          "direction": "n"
+        },
+        {
+          "to": 2846,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2844,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 12,
+      "x": 8,
+      "name": "Meeting Place Tavern.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2843,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2845,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 14,
+      "x": 6,
+      "name": "Meeting Place Tavern.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2843,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2846,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 12,
+      "x": 4,
+      "name": "Meeting Place Tavern.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2843,
+          "direction": "e"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2847,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2837
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 18,
+      "x": 4,
+      "name": "Piles of Pelts.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2848,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2839
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 22,
+      "x": 0,
+      "name": "Tirana's Tailoring.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2850,
+      "special_exits": [],
+      "flags": [],
+      "y": 2,
+      "x": -8,
+      "name": "Bridge.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2853,
+          "direction": "nw"
+        },
+        {
+          "to": 2830,
+          "direction": "se"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2851,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": -14,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2852,
+          "direction": "e"
+        },
+        {
+          "to": 2864,
+          "direction": "n"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2852,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": -12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2853,
+          "direction": "e"
+        },
+        {
+          "to": 2851,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2853,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": -10,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2854,
+          "direction": "n"
+        },
+        {
+          "to": 2850,
+          "direction": "se"
+        },
+        {
+          "to": 2852,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2854,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": -10,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2865,
+          "direction": "e"
+        },
+        {
+          "to": 2855,
+          "direction": "n"
+        },
+        {
+          "to": 2853,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2855,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": -10,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2854,
+          "direction": "s"
+        },
+        {
+          "to": 2856,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2856,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": -12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2855,
+          "direction": "e"
+        },
+        {
+          "to": 2857,
+          "direction": "n"
+        },
+        {
+          "to": 2863,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2857,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": -12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2867,
+          "direction": "e"
+        },
+        {
+          "to": 2858,
+          "direction": "n"
+        },
+        {
+          "to": 2856,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2858,
+      "special_exits": [],
+      "flags": [],
+      "y": 12,
+      "x": -12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2870,
+          "direction": "n"
+        },
+        {
+          "to": 2857,
+          "direction": "s"
+        },
+        {
+          "to": 2859,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2859,
+      "special_exits": [],
+      "flags": [],
+      "y": 12,
+      "x": -14,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2858,
+          "direction": "e"
+        },
+        {
+          "to": 2860,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2860,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2880
+        }
+      ],
+      "flags": [],
+      "y": 12,
+      "x": -16,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2859,
+          "direction": "e"
+        },
+        {
+          "to": 2861,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2861,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": -16,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2860,
+          "direction": "n"
+        },
+        {
+          "to": 2862,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2862,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": -16,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2863,
+          "direction": "e"
+        },
+        {
+          "to": 2861,
+          "direction": "n"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2863,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": -14,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2856,
+          "direction": "e"
+        },
+        {
+          "to": 2864,
+          "direction": "s"
+        },
+        {
+          "to": 2862,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2864,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": -14,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2863,
+          "direction": "n"
+        },
+        {
+          "to": 2851,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2865,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": -8,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2866,
+          "direction": "e"
+        },
+        {
+          "to": 2854,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2866,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": -6,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2817,
+          "direction": "e"
+        },
+        {
+          "to": 2865,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2867,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": -10,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2868,
+          "direction": "e"
+        },
+        {
+          "to": 2857,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2868,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": -8,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2869,
+          "direction": "e"
+        },
+        {
+          "to": 2867,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2869,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": -6,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2815,
+          "direction": "e"
+        },
+        {
+          "to": 2868,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2870,
+      "special_exits": [],
+      "flags": [],
+      "y": 14,
+      "x": -12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2871,
+          "direction": "n"
+        },
+        {
+          "to": 2858,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2871,
+      "special_exits": [],
+      "flags": [],
+      "y": 16,
+      "x": -12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2872,
+          "direction": "ne"
+        },
+        {
+          "to": 2874,
+          "direction": "nw"
+        },
+        {
+          "to": 2870,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2872,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2975
+        },
+        {
+          "command": "go double",
+          "to": 2874
+        }
+      ],
+      "flags": [],
+      "y": 18,
+      "x": -10,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2877,
+          "direction": "e"
+        },
+        {
+          "to": 2873,
+          "direction": "nw"
+        },
+        {
+          "to": 2875,
+          "direction": "se"
+        },
+        {
+          "to": 2871,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2873,
+      "special_exits": [],
+      "flags": [],
+      "y": 20,
+      "x": -12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2872,
+          "direction": "se"
+        },
+        {
+          "to": 2874,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2874,
+      "special_exits": [
+        {
+          "command": "go double",
+          "to": 2977
+        }
+      ],
+      "flags": [],
+      "y": 18,
+      "x": -14,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2873,
+          "direction": "ne"
+        },
+        {
+          "to": 2871,
+          "direction": "se"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2875,
+      "special_exits": [],
+      "flags": [],
+      "y": 16,
+      "x": -8,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2872,
+          "direction": "nw"
+        },
+        {
+          "to": 2876,
+          "direction": "se"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2876,
+      "special_exits": [],
+      "flags": [],
+      "y": 14,
+      "x": -6,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2875,
+          "direction": "nw"
+        },
+        {
+          "to": 2814,
+          "direction": "se"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2877,
+      "special_exits": [],
+      "flags": [],
+      "y": 18,
+      "x": -8,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2878,
+          "direction": "e"
+        },
+        {
+          "to": 2872,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2878,
+      "special_exits": [],
+      "flags": [],
+      "y": 18,
+      "x": -6,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2879,
+          "direction": "e"
+        },
+        {
+          "to": 2877,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2879,
+      "special_exits": [],
+      "flags": [],
+      "y": 18,
+      "x": -4,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2841,
+          "direction": "e"
+        },
+        {
+          "to": 2878,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2880,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2860
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 12,
+      "x": -18,
+      "name": "House.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2882,
+      "special_exits": [],
+      "flags": [],
+      "y": -3,
+      "x": 0,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2883,
+          "direction": "e"
+        },
+        {
+          "to": 2828,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2883,
+      "special_exits": [],
+      "flags": [],
+      "y": -3,
+      "x": 2,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2884,
+          "direction": "e"
+        },
+        {
+          "to": 2882,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2884,
+      "special_exits": [],
+      "flags": [],
+      "y": -3,
+      "x": 4,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2886,
+          "direction": "e"
+        },
+        {
+          "to": 2885,
+          "direction": "n"
+        },
+        {
+          "to": 2883,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2885,
+      "special_exits": [],
+      "flags": [],
+      "y": 2,
+      "x": 4,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2823,
+          "direction": "n"
+        },
+        {
+          "to": 2884,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2886,
+      "special_exits": [],
+      "flags": [],
+      "y": -3,
+      "x": 6,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2887,
+          "direction": "e"
+        },
+        {
+          "to": 2884,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2887,
+      "special_exits": [
+        {
+          "command": "go rope",
+          "to": 2959
+        }
+      ],
+      "flags": [],
+      "y": -3,
+      "x": 8,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2894,
+          "direction": "n"
+        },
+        {
+          "to": 2888,
+          "direction": "s"
+        },
+        {
+          "to": 2886,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2888,
+      "special_exits": [],
+      "flags": [],
+      "y": -5,
+      "x": 8,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2889,
+          "direction": "e"
+        },
+        {
+          "to": 2887,
+          "direction": "n"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2889,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2896
+        }
+      ],
+      "flags": [],
+      "y": -5,
+      "x": 10,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2890,
+          "direction": "e"
+        },
+        {
+          "to": 2888,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2890,
+      "special_exits": [],
+      "flags": [],
+      "y": -5,
+      "x": 12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2891,
+          "direction": "n"
+        },
+        {
+          "to": 2889,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2891,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2897
+        }
+      ],
+      "flags": [],
+      "y": -3,
+      "x": 12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2892,
+          "direction": "n"
+        },
+        {
+          "to": 2890,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2892,
+      "special_exits": [],
+      "flags": [],
+      "y": 2,
+      "x": 12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2898,
+          "direction": "ne"
+        },
+        {
+          "to": 2891,
+          "direction": "s"
+        },
+        {
+          "to": 2893,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2893,
+      "special_exits": [],
+      "flags": [],
+      "y": 2,
+      "x": 10,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2892,
+          "direction": "e"
+        },
+        {
+          "to": 2894,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2894,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2895
+        }
+      ],
+      "flags": [],
+      "y": 2,
+      "x": 8,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2893,
+          "direction": "e"
+        },
+        {
+          "to": 2887,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2895,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2894
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -3,
+      "x": 10,
+      "name": "The Tortoise.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2896,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2889
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -7,
+      "x": 12,
+      "name": "Fargoe's Fanciful Frivolities Shoppe.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2897,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2891
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -3,
+      "x": 14,
+      "name": "Corlyn's Arms.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2898,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": 14,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2903,
+          "direction": "ne"
+        },
+        {
+          "to": 2892,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2899,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 8,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2900,
+          "direction": "e"
+        },
+        {
+          "to": 2822,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2900,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 10,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2901,
+          "direction": "e"
+        },
+        {
+          "to": 2899,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2901,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2902,
+          "direction": "e"
+        },
+        {
+          "to": 2900,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2902,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 14,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2903,
+          "direction": "e"
+        },
+        {
+          "to": 2901,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2903,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 16,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2904,
+          "direction": "n"
+        },
+        {
+          "to": 2910,
+          "direction": "s"
+        },
+        {
+          "to": 2898,
+          "direction": "sw"
+        },
+        {
+          "to": 2902,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2904,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": 16,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2905,
+          "direction": "e"
+        },
+        {
+          "to": 2903,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2905,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 2911
+        }
+      ],
+      "flags": [],
+      "y": 8,
+      "x": 18,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2906,
+          "direction": "e"
+        },
+        {
+          "to": 2904,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2906,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": 20,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2907,
+          "direction": "s"
+        },
+        {
+          "to": 2905,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2907,
+      "special_exits": [
+        {
+          "command": "go flap",
+          "to": 2940
+        }
+      ],
+      "flags": [],
+      "y": 6,
+      "x": 20,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2906,
+          "direction": "n"
+        },
+        {
+          "to": 2908,
+          "direction": "s"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2908,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": 20,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2907,
+          "direction": "n"
+        },
+        {
+          "to": 2909,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2909,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": 18,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2908,
+          "direction": "e"
+        },
+        {
+          "to": 2910,
+          "direction": "w"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2910,
+      "special_exits": [
+        {
+          "command": "go ladder",
+          "to": 2967
+        }
+      ],
+      "flags": [],
+      "y": 4,
+      "x": 16,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2909,
+          "direction": "e"
+        },
+        {
+          "to": 2903,
+          "direction": "n"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2911,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 2905
+        },
+        {
+          "command": "go stair",
+          "to": 2939
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 10,
+      "x": 18,
+      "name": "Forester's Guild.",
+      "z": 0,
+      "exits": [],
+      "environment": "Woods/Forest",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2939,
+      "special_exits": [
+        {
+          "command": "go stair",
+          "to": 2911
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 12,
+      "x": 18,
+      "name": "Forester's Guild.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2940,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2941
+        },
+        {
+          "command": "go flap",
+          "to": 2907
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 6,
+      "x": 22,
+      "name": "Bard's Guild.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2941,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2940
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 6,
+      "x": 24,
+      "name": "Bard's Guild Outlet.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2952,
+      "special_exits": [
+        {
+          "command": "go ladder",
+          "to": 2836
+        }
+      ],
+      "flags": [],
+      "y": 16,
+      "x": 12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2953,
+          "direction": "ne"
+        },
+        {
+          "to": 2955,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2953,
+      "special_exits": [
+        {
+          "command": "go portal",
+          "to": 2958
+        }
+      ],
+      "flags": [],
+      "y": 18,
+      "x": 14,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2954,
+          "direction": "nw"
+        },
+        {
+          "to": 2952,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2954,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2957
+        }
+      ],
+      "flags": [],
+      "y": 20,
+      "x": 12,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2953,
+          "direction": "se"
+        },
+        {
+          "to": 2955,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2955,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2956
+        }
+      ],
+      "flags": [],
+      "y": 18,
+      "x": 10,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2954,
+          "direction": "ne"
+        },
+        {
+          "to": 2952,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2956,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2955
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 18,
+      "x": 8,
+      "name": "Brog's Pawnshop.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2957,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2954
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 22,
+      "x": 12,
+      "name": "Lothar's Locks.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2958,
+      "special_exits": [
+        {
+          "command": "go portal",
+          "to": 2953
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 18,
+      "x": 16,
+      "name": "Zorlwhee's Magick Emporium.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2959,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 2963
+        },
+        {
+          "command": "go rope",
+          "to": 2887
+        }
+      ],
+      "flags": [],
+      "y": -9,
+      "x": 6,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2960,
+          "direction": "ne"
+        },
+        {
+          "to": 2962,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2960,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 2964
+        }
+      ],
+      "flags": [],
+      "y": -7,
+      "x": 8,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2961,
+          "direction": "se"
+        },
+        {
+          "to": 2959,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2961,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 2965
+        }
+      ],
+      "flags": [],
+      "y": -9,
+      "x": 10,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2960,
+          "direction": "nw"
+        },
+        {
+          "to": 2962,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2962,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 2966
+        }
+      ],
+      "flags": [],
+      "y": -11,
+      "x": 8,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2961,
+          "direction": "ne"
+        },
+        {
+          "to": 2959,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2963,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 2959
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -9,
+      "x": 4,
+      "name": "Temple Unknown.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2964,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 2960
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -7,
+      "x": 10,
+      "name": "Temple Sa.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2965,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 2961
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -9,
+      "x": 12,
+      "name": "Temple Rinanni.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2966,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 2962
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -13,
+      "x": 8,
+      "name": "Temple Odarous.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2967,
+      "special_exits": [
+        {
+          "command": "go ladder",
+          "to": 2910
+        }
+      ],
+      "flags": [],
+      "y": -3,
+      "x": 16,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2968,
+          "direction": "ne"
+        },
+        {
+          "to": 2970,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2968,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2971
+        }
+      ],
+      "flags": [],
+      "y": 2,
+      "x": 18,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2969,
+          "direction": "se"
+        },
+        {
+          "to": 2967,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2969,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2972
+        }
+      ],
+      "flags": [],
+      "y": -3,
+      "x": 20,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2968,
+          "direction": "nw"
+        },
+        {
+          "to": 2970,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2970,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2973
+        }
+      ],
+      "flags": [],
+      "y": -5,
+      "x": 18,
+      "name": "Treehaven.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2969,
+          "direction": "ne"
+        },
+        {
+          "to": 2967,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2971,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2968
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 2,
+      "x": 20,
+      "name": "Coral's Gem Emporium.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2972,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2969
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -3,
+      "x": 22,
+      "name": "Psion Guild.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2973,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2970
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -7,
+      "x": 18,
+      "name": "City Guard.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2975,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2872
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 24,
+      "x": -10,
+      "name": "Silver Owl Inn.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2976,
+          "direction": "nw"
+        },
+        {
+          "to": 2978,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2976,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 26,
+      "x": -12,
+      "name": "Silver Owl Inn.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2975,
+          "direction": "se"
+        },
+        {
+          "to": 2977,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2977,
+      "special_exits": [
+        {
+          "command": "go double",
+          "to": 2874
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 24,
+      "x": -14,
+      "name": "Silver Owl Inn.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2976,
+          "direction": "ne"
+        },
+        {
+          "to": 2978,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2978,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 22,
+      "x": -12,
+      "name": "Silver Owl Inn.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2975,
+          "direction": "ne"
+        },
+        {
+          "to": 2977,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2979,
+      "special_exits": [
+        {
+          "command": "go ladder",
+          "to": 2980
+        },
+        {
+          "command": "go stair",
+          "to": 2978
+        }
+      ],
+      "flags": [],
+      "y": 22,
+      "x": -18,
+      "name": "Silver Owl Inn.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2980,
+      "special_exits": [
+        {
+          "command": "go 2 door",
+          "to": 2982
+        },
+        {
+          "command": "go 3 door",
+          "to": 2983
+        },
+        {
+          "command": "go 4 door",
+          "to": 2984
+        },
+        {
+          "command": "go door",
+          "to": 2981
+        },
+        {
+          "command": "go ladder",
+          "to": 2979
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 18,
+      "x": -21,
+      "name": "Silver Owl Inn.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2981,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2980
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 21,
+      "x": -21,
+      "name": "Cherry Room.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2982,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2980
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 18,
+      "x": -24,
+      "name": "Walnut Room.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2983,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2980
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 18,
+      "x": -18,
+      "name": "Ash Room.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2984,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 2980
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 15,
+      "x": -21,
+      "name": "Mahogany Room.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6229,
+      "special_exits": [
+        {
+          "command": "go double",
+          "to": 2815
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 10,
+      "x": -2,
+      "name": "Miarn's Jewels, Reception.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6230,
+          "direction": "ne"
+        },
+        {
+          "to": 6231,
+          "direction": "se"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6230,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 11,
+      "x": -1,
+      "name": "Miarn's Jewels, Master's Workshop.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6229,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6231,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 9,
+      "x": -1,
+      "name": "Miarn's Jewels, Apprentice's Workshop.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6229,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9008,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": -1,
+      "name": "Aeron's Hideaway.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    }
+  ],
+  "format": "DragonsGateHUD-map",
+  "schema": 1,
+  "provenance": {
+    "verified": false,
+    "artifact_id": "submission:20260907-191450:all-20260907-191450",
+    "selection": {
+      "scope": "all"
+    },
+    "scope": "all",
+    "author": "Unknown",
+    "slug": "all-20260907-191450",
+    "publisher": "unknown",
+    "submission_id": "c3a6f1a8-6009-4d37-a859-56c26bcfc0c2"
+  },
+  "title": "all-20260907-191450",
+  "description": "",
+  "version": "1.0.0"
+}
