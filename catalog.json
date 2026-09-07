@@ -17,6 +17,21 @@
       "sha256": "6253b7362a5cf4252d48ad2f55776ddaf5f6e34b7f8ce8cd86a6058847a9c1c9"
     },
     {
+      "publisher": "deklan-marrowen",
+      "slug": "all-20260907-191714",
+      "name": "all-20260907-191714",
+      "author": "Deklan Marrowen",
+      "description": "",
+      "version": "1.0.0",
+      "areas": [
+        "1"
+      ],
+      "room_count": 782,
+      "bytes": 360195,
+      "download_url": "https://raw.githubusercontent.com/wizzydizzy-ctrl/dragons-gate-map-library/main/maps/deklan-marrowen/all-20260907-191714.json",
+      "sha256": "c4de4702a51782d343bc9589c376e639d2e8a2308d2d5386162b350a23f136ae"
+    },
+    {
       "publisher": "unknown",
       "slug": "all-20260907-191450",
       "name": "all-20260907-191450",
