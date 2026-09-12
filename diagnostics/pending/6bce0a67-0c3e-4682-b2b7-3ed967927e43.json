@@ -1,0 +1,10 @@
+{
+  "request_id": "6bce0a67-0c3e-4682-b2b7-3ed967927e43",
+  "component": "user_feedback",
+  "edition": "player",
+  "version": "0.3.32",
+  "mudlet_version": "table: 000001f3cb251ce0",
+  "message": "Automatic mapper diagnostic",
+  "details": "Type: feedback\nDescription:\nDGHUD mapper diagnostic v1\ngenerated_epoch=1789231515\nhud_version=0.3.32\nedition=player\nmudlet_version=table: 000001f3cb2511a0\nmapper_enabled=true\ncurrent_room=178\nowned_room_count=35\nowned_area_count=3\npending_cleanup=none\nwalking=false\npending_automap=false\npending_special=false\nlast_status=room 178\nlast_error=none\nwalk_timeout=12\nspecial_timeout=12\nsubmap_gate=true\nsubmap_portal=true\nsubmap_door=true\nsubmap_arch=true\nsubmap_path=true\nsubmap_other=true\nevents=20\nevent_01=1789231072|mapped|room 10547\nevent_02=1789231082|mapped|room 10545\nevent_03=1789231086|mapped|room 10550\nevent_04=1789231174|mapped|room 10550\nevent_05=1789231176|mapped|room 10550\nevent_06=1789231208|mapped|room 10546\nevent_07=1789231213|mapped|room 10555\nevent_08=1789231215|mapped|room 10558\nevent_09=1789231219|mapped|room 10556\nevent_10=1789231221|mapped|entered submap at room 10543 via go gate\nevent_11=1789231224|mapped|room 10542\nevent_12=1789231227|mapped|room 10543\nevent_13=1789231230|mapped|room 10542\nevent_14=1789231236|mapped|room 10541\nevent_15=1789231241|mapped|room 214\nevent_16=1789231242|mapped|room 179\nevent_17=1789231248|mapped|room 178\nevent_18=1789231256|mapped|room 199\nevent_19=1789231471|mapped|room 199\nevent_20=1789231478|mapped|room 178\nprivacy=No credentials, chat, room descriptions, character name, IP address, or command history included.",
+  "privacy_notice": "Submitted anonymously after player consent. Sanitized by the HUD and validated by the service."
+}
