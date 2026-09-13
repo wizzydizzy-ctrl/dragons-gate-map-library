@@ -1,0 +1,10 @@
+{
+  "request_id": "b5113de1-fb7b-4bd4-a673-b7a13252fbca",
+  "component": "user_feedback",
+  "edition": "player",
+  "version": "0.3.43",
+  "mudlet_version": "table: 000001340b0c7990",
+  "message": "autoroller misidentifying rolling protocol -- thinks I'm using R&A instead of RiP",
+  "details": "Type: feedback\nDescription:\nrr start\n\n[DGHUD Roller] Started — target 54 / 77 (11 characteristics).\nrr status\n\n[DGHUD Roller] Autoroller status\nState: ACTIVE\nProtocol: Not detected yet\nPhase: Observing\nWaiting: Waiting for a complete supported roll.\nSession rolls: 0\nAuto-start: OFF\nSafety: DGHUD never sends done; final acceptance is always manual.\nRare safety: latent psion discovery stops all automatic input and opens a persistent HUD alert.\nreroll\n  STR         INT         WIS         DEX         AGI         CON         \n  Fair        Poor        Fair        Good        Good        Good        \n\n  CHA         WIL         VOI         PER         APP         \n  Fair        Aver        Aver        Good        Fair        \nFit for a Thief: Low    primes: DEX AGI\nreroll  done  ? help\n> rr stat\n\n[DGHUD Roller] Commands: rr start|stop|status|show|stats|last|reset|help; rr set total|hard|max|delay|greats|goodplus|arrange|STAT <value>. Use rr status to see what the \nroller is waiting for and rr show to display every saved setting. Roll-and-arrange modes: manual, game_auto, minimums. The HUD never sends done.\nrr status\n\n[DGHUD Roller] Autoroller status\nState: ACTIVE\nProtocol: Roll and arrange\nPhase: Waiting for next roll\nWaiting: Reroll sent or observed; waiting for the next complete roll.\nSession rolls: 0\nAuto-start: OFF\nSafety: DGHUD never sends done; final acceptance is always manual.\nRare safety: latent psion discovery stops all automatic input and opens a persistent HUD alert.",
+  "privacy_notice": "Submitted anonymously after player consent. Sanitized by the HUD and validated by the service."
+}
