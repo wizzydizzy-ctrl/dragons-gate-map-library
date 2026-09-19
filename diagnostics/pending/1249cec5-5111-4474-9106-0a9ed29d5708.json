@@ -1,0 +1,10 @@
+{
+  "request_id": "1249cec5-5111-4474-9106-0a9ed29d5708",
+  "component": "user_feedback",
+  "edition": "player",
+  "version": "0.3.56",
+  "mudlet_version": "table: 000001b679bd8980",
+  "message": "Automatic mapper diagnostic",
+  "details": "Type: feedback\nDescription:\nDGHUD mapper diagnostic v1\ngenerated_epoch=1789789871\nhud_version=0.3.56\nedition=player\nmudlet_version=table: 000001b679bd8cf0\nmapper_enabled=true\ncurrent_room=10541\nowned_room_count=139\nowned_area_count=10\npending_cleanup=none\nwalking=false\npending_automap=false\npending_special=false\nlast_status=room 10541\nlast_error=none\nwalk_timeout=12\nspecial_timeout=12\nsubmap_gate=true\nsubmap_portal=true\nsubmap_door=true\nsubmap_arch=true\nsubmap_path=true\nsubmap_other=true\nevents=18\nevent_01=1789787097|mapped|room 175\nevent_02=1789787181|mapped|room 173\nevent_03=1789787279|mapped|room 173\nevent_04=1789787308|mapped|room 177\nevent_05=1789787312|mapped|room 173\nevent_06=1789787318|mapped|room 176\nevent_07=1789787787|mapped|room 176\nevent_08=1789789615|mapped|room 173\nevent_09=1789789619|teleport|room changed without a tracked direction; isolated room 178\nevent_10=1789789622|mapped|room 199\nevent_11=1789789632|mapped|room 178\nevent_12=1789789635|mapped|room 179\nevent_13=1789789639|mapped|room 184\nevent_14=1789789651|mapped|room 179\nevent_15=1789789654|mapped|room 214\nevent_16=1789789657|mapped|room 216\nevent_17=1789789663|mapped|room 214\nevent_18=1789789665|mapped|room 10541\nprivacy=No credentials, chat, room descriptions, character name, IP address, or command history included.",
+  "privacy_notice": "Submitted anonymously after player consent. Sanitized by the HUD and validated by the service."
+}
