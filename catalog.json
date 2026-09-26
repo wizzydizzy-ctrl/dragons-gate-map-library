@@ -30,6 +30,21 @@
       "bytes": 360187,
       "download_url": "https://raw.githubusercontent.com/wizzydizzy-ctrl/dragons-gate-map-library/main/maps/unknown/all-20260912-162435.json",
       "sha256": "8a24450044c5c8e608a379398be0d2459b18364ef90b87efcaa8ccdba02dd442"
+    },
+    {
+      "publisher": "wizzy-dizzy",
+      "slug": "all-20260926-081756",
+      "name": "all-20260926-081756",
+      "author": "Wizzy Dizzy",
+      "description": "",
+      "version": "1.0.0",
+      "areas": [
+        "1"
+      ],
+      "room_count": 255,
+      "bytes": 115454,
+      "download_url": "https://raw.githubusercontent.com/wizzydizzy-ctrl/dragons-gate-map-library/main/maps/wizzy-dizzy/all-20260926-081756.json",
+      "sha256": "465add59dfaee4c9f9be6aec169322582b3696fce9c0bf967b5836b3ed6476e9"
     }
   ]
 }

@@ -159,6 +159,28 @@
         "special:9905",
         "special:9906"
       ]
+    },
+    {
+      "publisher": "wizzy-dizzy",
+      "slug": "all-20260926-081756",
+      "name": "all-20260926-081756",
+      "author": "Wizzy Dizzy",
+      "description": "",
+      "version": "1.0.0",
+      "areas": [
+        "1"
+      ],
+      "room_count": 255,
+      "bytes": 115454,
+      "download_url": "https://raw.githubusercontent.com/wizzydizzy-ctrl/dragons-gate-map-library/main/maps/wizzy-dizzy/all-20260926-081756.json",
+      "sha256": "465add59dfaee4c9f9be6aec169322582b3696fce9c0bf967b5836b3ed6476e9",
+      "scope": "full_map",
+      "map_name": "all-20260926-081756",
+      "subareas": [
+        "1",
+        "area:2",
+        "area:3"
+      ]
     }
   ]
 }

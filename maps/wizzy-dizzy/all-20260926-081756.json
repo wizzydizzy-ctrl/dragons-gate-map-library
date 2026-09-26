@@ -1,0 +1,6307 @@
+{
+  "rooms": [
+    {
+      "poi": [],
+      "id": 38,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 174
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 0,
+      "x": -3,
+      "name": "Target Room.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11934,
+          "direction": "n"
+        },
+        {
+          "to": 11935,
+          "direction": "s"
+        }
+      ],
+      "environment": "Rocky/Mountains",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 168,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -7,
+      "x": 2,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 171,
+          "direction": "n"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 171,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -6,
+      "x": 2,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11199,
+          "direction": "n"
+        },
+        {
+          "to": 168,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 172,
+      "special_exits": [
+        {
+          "command": "go port",
+          "to": 173
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 1,
+      "x": 2,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11204,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 173,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 178
+        },
+        {
+          "command": "go door",
+          "to": 6190
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 0,
+      "x": -1,
+      "name": "Training Square Center.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 175,
+          "direction": "e"
+        },
+        {
+          "to": 258,
+          "direction": "ne"
+        },
+        {
+          "to": 5130,
+          "direction": "nw"
+        },
+        {
+          "to": 177,
+          "direction": "se"
+        },
+        {
+          "to": 176,
+          "direction": "sw"
+        },
+        {
+          "to": 174,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 174,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 38
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 0,
+      "x": -2,
+      "name": "Weapons Practice Area.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 173,
+          "direction": "e"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 175,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 0,
+      "x": 0,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 173,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 176,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": -2,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 173,
+          "direction": "ne"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 177,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": 0,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 173,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 178,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 173
+        },
+        {
+          "command": "go port",
+          "to": 181
+        }
+      ],
+      "flags": [],
+      "y": 2,
+      "x": -1,
+      "name": "Spurian Cadet Academy.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 199,
+          "direction": "e"
+        },
+        {
+          "to": 179,
+          "direction": "n"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 179,
+      "special_exits": [],
+      "flags": [],
+      "y": 3,
+      "x": -1,
+      "name": "Spurian Cadet Academy.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 267,
+          "direction": "e"
+        },
+        {
+          "to": 214,
+          "direction": "n"
+        },
+        {
+          "to": 178,
+          "direction": "s"
+        },
+        {
+          "to": 184,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 181,
+      "special_exits": [
+        {
+          "command": "go port",
+          "to": 178
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 2,
+      "x": -5,
+      "name": "Spurian Cadet Academy, Temple District.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 207,
+          "direction": "n"
+        },
+        {
+          "to": 206,
+          "direction": "ne"
+        },
+        {
+          "to": 208,
+          "direction": "nw"
+        },
+        {
+          "to": 211,
+          "direction": "s"
+        },
+        {
+          "to": 212,
+          "direction": "se"
+        },
+        {
+          "to": 210,
+          "direction": "sw"
+        },
+        {
+          "to": 209,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 184,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": -2,
+      "name": "Spurian Cadet Academy, Healer's Shack.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 179,
+          "direction": "e"
+        },
+        {
+          "to": 10559,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 199,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 2,
+      "x": 0,
+      "name": "Academy Training Center.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 200,
+          "direction": "e"
+        },
+        {
+          "to": 178,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 200,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 2,
+      "x": 1,
+      "name": "Archway to Spur.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 199,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 206,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": -4,
+      "name": "Temple Odarous.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 181,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 207,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": -5,
+      "name": "Temple Sa.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 181,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 208,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": -6,
+      "name": "Temple Unknown.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 181,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 209,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 2,
+      "x": -6,
+      "name": "Temple Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 181,
+          "direction": "e"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 210,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 1,
+      "x": -6,
+      "name": "Temple Set.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 181,
+          "direction": "ne"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 211,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 1,
+      "x": -5,
+      "name": "Temple Elindale.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 181,
+          "direction": "n"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 212,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 1,
+      "x": -4,
+      "name": "Temple Rinanni.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 181,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 214,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": -1,
+      "name": "Spurian Cadet Academy.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9441,
+          "direction": "e"
+        },
+        {
+          "to": 216,
+          "direction": "n"
+        },
+        {
+          "to": 10541,
+          "direction": "ne"
+        },
+        {
+          "to": 179,
+          "direction": "s"
+        },
+        {
+          "to": 215,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 215,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": -2,
+      "name": "Spurian Cadet Academy.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 214,
+          "direction": "e"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 216,
+      "special_exits": [
+        {
+          "command": "go gate",
+          "to": 8422
+        }
+      ],
+      "flags": [],
+      "y": 5,
+      "x": -1,
+      "name": "Spurian Cadet Academy.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 214,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 258,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 1,
+      "x": 0,
+      "name": "Bank.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 173,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 267,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": 0,
+      "name": "House of the Dead.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 179,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1431,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": 1,
+      "name": "Town Square Center",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1434,
+          "direction": "e"
+        },
+        {
+          "to": 1432,
+          "direction": "n"
+        },
+        {
+          "to": 1439,
+          "direction": "nw"
+        },
+        {
+          "to": 1436,
+          "direction": "s"
+        },
+        {
+          "to": 1435,
+          "direction": "se"
+        },
+        {
+          "to": 1437,
+          "direction": "sw"
+        },
+        {
+          "to": 1438,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1432,
+      "special_exits": [],
+      "flags": [],
+      "y": 0,
+      "x": 1,
+      "name": "Town Square North",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1433,
+          "direction": "e"
+        },
+        {
+          "to": 1442,
+          "direction": "n"
+        },
+        {
+          "to": 1439,
+          "direction": "s"
+        },
+        {
+          "to": 1439,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1433,
+      "special_exits": [],
+      "flags": [],
+      "y": 0,
+      "x": 2,
+      "name": "Town Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1452,
+          "direction": "e"
+        },
+        {
+          "to": 12653,
+          "direction": "ne"
+        },
+        {
+          "to": 1434,
+          "direction": "s"
+        },
+        {
+          "to": 1432,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1434,
+      "special_exits": [],
+      "flags": [],
+      "y": -1,
+      "x": 2,
+      "name": "Town Square East",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1440,
+          "direction": "e"
+        },
+        {
+          "to": 1433,
+          "direction": "n"
+        },
+        {
+          "to": 1435,
+          "direction": "s"
+        },
+        {
+          "to": 1431,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1435,
+      "special_exits": [],
+      "flags": [],
+      "y": -2,
+      "x": 2,
+      "name": "Town Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1434,
+          "direction": "n"
+        },
+        {
+          "to": 1431,
+          "direction": "nw"
+        },
+        {
+          "to": 1449,
+          "direction": "se"
+        },
+        {
+          "to": 1436,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1436,
+      "special_exits": [],
+      "flags": [],
+      "y": -2,
+      "x": 1,
+      "name": "Town Square South",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1435,
+          "direction": "e"
+        },
+        {
+          "to": 1431,
+          "direction": "n"
+        },
+        {
+          "to": 1443,
+          "direction": "s"
+        },
+        {
+          "to": 1437,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1437,
+      "special_exits": [],
+      "flags": [],
+      "y": -2,
+      "x": 0,
+      "name": "Town Square Southwest",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1436,
+          "direction": "e"
+        },
+        {
+          "to": 1438,
+          "direction": "n"
+        },
+        {
+          "to": 1431,
+          "direction": "ne"
+        },
+        {
+          "to": 1445,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1438,
+      "special_exits": [],
+      "flags": [],
+      "y": -1,
+      "x": 0,
+      "name": "Town Square West.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1431,
+          "direction": "e"
+        },
+        {
+          "to": 1439,
+          "direction": "n"
+        },
+        {
+          "to": 1437,
+          "direction": "s"
+        },
+        {
+          "to": 1441,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1439,
+      "special_exits": [],
+      "flags": [],
+      "y": 0,
+      "x": 0,
+      "name": "Town Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1432,
+          "direction": "e"
+        },
+        {
+          "to": 1447,
+          "direction": "nw"
+        },
+        {
+          "to": 1438,
+          "direction": "s"
+        },
+        {
+          "to": 1431,
+          "direction": "se"
+        },
+        {
+          "to": 1457,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1440,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": 4,
+      "name": "Town Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1458,
+          "direction": "e"
+        },
+        {
+          "to": 1434,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1441,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": -2,
+      "name": "Town Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1438,
+          "direction": "e"
+        },
+        {
+          "to": 1479,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1442,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 1,
+      "x": 1,
+      "name": "Town Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1480,
+          "direction": "n"
+        },
+        {
+          "to": 1432,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1443,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -4,
+      "x": 1,
+      "name": "Town Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1436,
+          "direction": "n"
+        },
+        {
+          "to": 1471,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1444,
+      "special_exits": [],
+      "flags": [],
+      "y": 0,
+      "x": 6,
+      "name": "Execution Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1458,
+          "direction": "sw"
+        },
+        {
+          "to": 1459,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1445,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -4,
+      "x": -2,
+      "name": "Town Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1437,
+          "direction": "ne"
+        },
+        {
+          "to": 1470,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1446,
+      "special_exits": [],
+      "flags": [],
+      "y": 0,
+      "x": 4,
+      "name": "Execution Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1459,
+          "direction": "e"
+        },
+        {
+          "to": 1458,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1447,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 2,
+      "x": -2,
+      "name": "Town Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1485,
+          "direction": "nw"
+        },
+        {
+          "to": 1439,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1448,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": 5,
+      "name": "Sonnet Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 2146,
+          "direction": "e"
+        },
+        {
+          "to": 12654,
+          "direction": "ne"
+        },
+        {
+          "to": 12653,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1449,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -4,
+      "x": 4,
+      "name": "Town Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1435,
+          "direction": "nw"
+        },
+        {
+          "to": 1463,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1452,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 0,
+      "x": 3,
+      "name": "Psion Center.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1433,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1457,
+      "special_exits": [
+        {
+          "command": "go port",
+          "to": 1439
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 0,
+      "x": -1,
+      "name": "HOD Agent.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1458,
+      "special_exits": [],
+      "flags": [],
+      "y": -1,
+      "x": 5,
+      "name": "Condemned Walk.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1460,
+          "direction": "e"
+        },
+        {
+          "to": 1459,
+          "direction": "n"
+        },
+        {
+          "to": 1444,
+          "direction": "ne"
+        },
+        {
+          "to": 1446,
+          "direction": "nw"
+        },
+        {
+          "to": 1440,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1459,
+      "special_exits": [],
+      "flags": [],
+      "y": 0,
+      "x": 5,
+      "name": "Execution Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1444,
+          "direction": "e"
+        },
+        {
+          "to": 4639,
+          "direction": "n"
+        },
+        {
+          "to": 1458,
+          "direction": "s"
+        },
+        {
+          "to": 1446,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1460,
+      "special_exits": [],
+      "flags": [],
+      "y": -1,
+      "x": 6,
+      "name": "Condemned Walk.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1461,
+          "direction": "e"
+        },
+        {
+          "to": 1458,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1461,
+      "special_exits": [],
+      "flags": [],
+      "y": -1,
+      "x": 7,
+      "name": "Condemned Walk.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1462,
+          "direction": "e"
+        },
+        {
+          "to": 1460,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1462,
+      "special_exits": [],
+      "flags": [],
+      "y": -1,
+      "x": 8,
+      "name": "Condemned Walk.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1461,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1463,
+      "special_exits": [],
+      "flags": [],
+      "y": -5,
+      "x": 5,
+      "name": "Right Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1449,
+          "direction": "nw"
+        },
+        {
+          "to": 1464,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1464,
+      "special_exits": [],
+      "flags": [],
+      "y": -6,
+      "x": 6,
+      "name": "Right Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1463,
+          "direction": "nw"
+        },
+        {
+          "to": 1465,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1465,
+      "special_exits": [],
+      "flags": [],
+      "y": -7,
+      "x": 7,
+      "name": "Right Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1464,
+          "direction": "nw"
+        },
+        {
+          "to": 1466,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1466,
+      "special_exits": [],
+      "flags": [],
+      "y": -8,
+      "x": 8,
+      "name": "Right Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1465,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1467,
+      "special_exits": [],
+      "flags": [],
+      "y": -8,
+      "x": -6,
+      "name": "Knowledge Path.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1468,
+          "direction": "ne"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1468,
+      "special_exits": [],
+      "flags": [],
+      "y": -7,
+      "x": -5,
+      "name": "Knowledge Path.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1469,
+          "direction": "ne"
+        },
+        {
+          "to": 1467,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1469,
+      "special_exits": [],
+      "flags": [],
+      "y": -6,
+      "x": -4,
+      "name": "Knowledge Path.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1470,
+          "direction": "ne"
+        },
+        {
+          "to": 1468,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1470,
+      "special_exits": [],
+      "flags": [],
+      "y": -5,
+      "x": -3,
+      "name": "Knowledge Path.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1445,
+          "direction": "ne"
+        },
+        {
+          "to": 1469,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1471,
+      "special_exits": [],
+      "flags": [],
+      "y": -5,
+      "x": 1,
+      "name": "Southern Ave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1443,
+          "direction": "n"
+        },
+        {
+          "to": 1472,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1472,
+      "special_exits": [],
+      "flags": [],
+      "y": -6,
+      "x": 1,
+      "name": "Southern Ave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1471,
+          "direction": "n"
+        },
+        {
+          "to": 1473,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1473,
+      "special_exits": [],
+      "flags": [],
+      "y": -7,
+      "x": 1,
+      "name": "Southern Ave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1472,
+          "direction": "n"
+        },
+        {
+          "to": 1474,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1474,
+      "special_exits": [],
+      "flags": [],
+      "y": -8,
+      "x": 1,
+      "name": "Southern Ave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1473,
+          "direction": "n"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1476,
+      "special_exits": [],
+      "flags": [],
+      "y": -1,
+      "x": -6,
+      "name": "Merchant Walk.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1477,
+          "direction": "e"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1477,
+      "special_exits": [],
+      "flags": [],
+      "y": -1,
+      "x": -5,
+      "name": "Merchant Walk.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1478,
+          "direction": "e"
+        },
+        {
+          "to": 1476,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1478,
+      "special_exits": [],
+      "flags": [],
+      "y": -1,
+      "x": -4,
+      "name": "Merchant Walk.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1479,
+          "direction": "e"
+        },
+        {
+          "to": 1477,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1479,
+      "special_exits": [],
+      "flags": [],
+      "y": -1,
+      "x": -3,
+      "name": "Merchant Walk.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1441,
+          "direction": "e"
+        },
+        {
+          "to": 1478,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1480,
+      "special_exits": [],
+      "flags": [],
+      "y": 3,
+      "x": 1,
+      "name": "Northern Ave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1481,
+          "direction": "n"
+        },
+        {
+          "to": 1442,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1481,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": 1,
+      "name": "Northern Ave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1482,
+          "direction": "n"
+        },
+        {
+          "to": 1480,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1482,
+      "special_exits": [],
+      "flags": [],
+      "y": 5,
+      "x": 1,
+      "name": "Northern Ave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1483,
+          "direction": "n"
+        },
+        {
+          "to": 1481,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1483,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 1,
+      "name": "Northern Ave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1482,
+          "direction": "n"
+        },
+        {
+          "to": 1482,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1485,
+      "special_exits": [],
+      "flags": [],
+      "y": 3,
+      "x": -3,
+      "name": "Low Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1486,
+          "direction": "nw"
+        },
+        {
+          "to": 1447,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1486,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": -4,
+      "name": "Low Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1487,
+          "direction": "nw"
+        },
+        {
+          "to": 1485,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1487,
+      "special_exits": [],
+      "flags": [],
+      "y": 5,
+      "x": -5,
+      "name": "Low Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1488,
+          "direction": "nw"
+        },
+        {
+          "to": 1486,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1488,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": -6,
+      "name": "Low Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1487,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1629,
+      "special_exits": [],
+      "flags": [
+        "indoor",
+        "underground"
+      ],
+      "y": -7,
+      "x": 12,
+      "name": "Gladiator Games Observation Lounge",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1940,
+          "direction": "n"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1715,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 168
+        }
+      ],
+      "flags": [
+        "indoor",
+        "underground"
+      ],
+      "y": -7,
+      "x": 1,
+      "name": "Guide Lounge",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1940,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 1946
+        },
+        {
+          "command": "go port",
+          "to": 6190
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -6,
+      "x": 12,
+      "name": "Green room.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1629,
+          "direction": "s"
+        },
+        {
+          "to": 1954,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1942,
+      "special_exits": [
+        {
+          "command": "go lad",
+          "to": 1951
+        }
+      ],
+      "flags": [],
+      "y": -7,
+      "x": 14,
+      "name": "Southwest corner.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1943,
+          "direction": "e"
+        },
+        {
+          "to": 1945,
+          "direction": "n"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1943,
+      "special_exits": [],
+      "flags": [],
+      "y": -7,
+      "x": 15,
+      "name": "South end.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1944,
+          "direction": "e"
+        },
+        {
+          "to": 1942,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1944,
+      "special_exits": [],
+      "flags": [],
+      "y": -7,
+      "x": 16,
+      "name": "Southeast corner.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1947,
+          "direction": "n"
+        },
+        {
+          "to": 1946,
+          "direction": "nw"
+        },
+        {
+          "to": 1943,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1945,
+      "special_exits": [],
+      "flags": [],
+      "y": -6,
+      "x": 14,
+      "name": "West end.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1946,
+          "direction": "e"
+        },
+        {
+          "to": 1948,
+          "direction": "n"
+        },
+        {
+          "to": 1942,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1946,
+      "special_exits": [
+        {
+          "command": "go rope",
+          "to": 1953
+        }
+      ],
+      "flags": [],
+      "y": -6,
+      "x": 15,
+      "name": "Center.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1947,
+          "direction": "n"
+        },
+        {
+          "to": 1948,
+          "direction": "nw"
+        },
+        {
+          "to": 1944,
+          "direction": "se"
+        },
+        {
+          "to": 1945,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1947,
+      "special_exits": [],
+      "flags": [],
+      "y": -6,
+      "x": 16,
+      "name": "East end.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1950,
+          "direction": "n"
+        },
+        {
+          "to": 1944,
+          "direction": "s"
+        },
+        {
+          "to": 1950,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1948,
+      "special_exits": [],
+      "flags": [],
+      "y": -5,
+      "x": 14,
+      "name": "Northwest corner.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1949,
+          "direction": "e"
+        },
+        {
+          "to": 1945,
+          "direction": "s"
+        },
+        {
+          "to": 1946,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1949,
+      "special_exits": [],
+      "flags": [],
+      "y": -5,
+      "x": 15,
+      "name": "North end.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1950,
+          "direction": "e"
+        },
+        {
+          "to": 1946,
+          "direction": "s"
+        },
+        {
+          "to": 1948,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1950,
+      "special_exits": [],
+      "flags": [],
+      "y": -5,
+      "x": 16,
+      "name": "Northeast corner.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1947,
+          "direction": "s"
+        },
+        {
+          "to": 1949,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1951,
+      "special_exits": [
+        {
+          "command": "go lad",
+          "to": 1942
+        }
+      ],
+      "flags": [],
+      "y": -5,
+      "x": 12,
+      "name": "Southwest platform.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1953,
+          "direction": "ne"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1952,
+      "special_exits": [
+        {
+          "command": "go ladd",
+          "to": 1950
+        }
+      ],
+      "flags": [],
+      "y": -3,
+      "x": 14,
+      "name": "Northeast platform.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1953,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1953,
+      "special_exits": [],
+      "flags": [],
+      "y": -4,
+      "x": 13,
+      "name": "The bridge.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1952,
+          "direction": "ne"
+        },
+        {
+          "to": 1951,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 1954,
+      "special_exits": [],
+      "flags": [
+        "indoor",
+        "underground"
+      ],
+      "y": -6,
+      "x": 11,
+      "name": "Familiar waiting room.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1940,
+          "direction": "e"
+        }
+      ],
+      "environment": "Woods/Forest",
+      "partition": "area:3",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 2146,
+      "special_exits": [],
+      "flags": [
+        "indoor",
+        "underground"
+      ],
+      "y": 3,
+      "x": 6,
+      "name": "OOC Inn",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1448,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 4639,
+      "special_exits": [],
+      "flags": [
+        "dark"
+      ],
+      "y": 1,
+      "x": 5,
+      "name": "The Pit",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1459,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 5130,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 1,
+      "x": -2,
+      "name": "Academy Supply Depot.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 173,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6190,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 6191
+        },
+        {
+          "command": "go door",
+          "to": 173
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": -1,
+      "name": "Dean Eristolicus' Office",
+      "z": 0,
+      "exits": [],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6191,
+      "special_exits": [
+        {
+          "command": "go arch",
+          "to": 6190
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": -2,
+      "x": -1,
+      "name": "Magickal OOC Classroom",
+      "z": 0,
+      "exits": [],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6198,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": -13,
+      "name": "Ancient Burial Cave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6199,
+          "direction": "e"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6199,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": -12,
+      "name": "Ancient Burial Cave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6234,
+          "direction": "e"
+        },
+        {
+          "to": 6236,
+          "direction": "ne"
+        },
+        {
+          "to": 6235,
+          "direction": "nw"
+        },
+        {
+          "to": 6198,
+          "direction": "w"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6234,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": -11,
+      "name": "Ancient Burial Cave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6199,
+          "direction": "w"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6235,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 4,
+      "x": -13,
+      "name": "Ancient Burial Cave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6199,
+          "direction": "se"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6236,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 4,
+      "x": -11,
+      "name": "Ancient Burial Cave.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6199,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6237,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 13,
+      "x": -13,
+      "name": "Troll Cave",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6238,
+          "direction": "s"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6238,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 12,
+      "x": -13,
+      "name": "Troll Cave",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6237,
+          "direction": "n"
+        },
+        {
+          "to": 6239,
+          "direction": "se"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6239,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 11,
+      "x": -12,
+      "name": "Troll Cave",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6241,
+          "direction": "n"
+        },
+        {
+          "to": 6238,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6240,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 13,
+      "x": -11,
+      "name": "Troll Cave",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6241,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 6241,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 12,
+      "x": -12,
+      "name": "Troll Cave",
+      "z": 0,
+      "exits": [
+        {
+          "to": 6240,
+          "direction": "ne"
+        },
+        {
+          "to": 6239,
+          "direction": "s"
+        }
+      ],
+      "environment": "Tundra",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8370,
+      "special_exits": [
+        {
+          "command": "go path",
+          "to": 215
+        }
+      ],
+      "flags": [],
+      "y": 4,
+      "x": -3,
+      "name": "Spurian Cadet Academy, Nature Path.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8371,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8371,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": -4,
+      "name": "Spurian Cadet Academy, Nature Path.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8370,
+          "direction": "e"
+        },
+        {
+          "to": 8372,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8372,
+      "special_exits": [],
+      "flags": [],
+      "y": 5,
+      "x": -5,
+      "name": "Spurian Cadet Academy, Nature Path.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8373,
+          "direction": "nw"
+        },
+        {
+          "to": 8371,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8373,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": -6,
+      "name": "Spurian Cadet Academy, Nature Path.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8372,
+          "direction": "se"
+        },
+        {
+          "to": 8374,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8374,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": -7,
+      "name": "Spurian Cadet Academy, Elindale's Forest.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8373,
+          "direction": "e"
+        },
+        {
+          "to": 8389,
+          "direction": "nw"
+        },
+        {
+          "to": 8375,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8375,
+      "special_exits": [],
+      "flags": [],
+      "y": 5,
+      "x": -7,
+      "name": "Spurian Cadet Academy, Elindale's Forest.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8374,
+          "direction": "n"
+        },
+        {
+          "to": 8376,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8376,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": -7,
+      "name": "Spurian Cadet Academy, Elindale's Forest.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8375,
+          "direction": "n"
+        },
+        {
+          "to": 8377,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8377,
+      "special_exits": [],
+      "flags": [],
+      "y": 3,
+      "x": -7,
+      "name": "Spurian Cadet Academy, Elindale's Forest.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8376,
+          "direction": "n"
+        },
+        {
+          "to": 8378,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8378,
+      "special_exits": [],
+      "flags": [],
+      "y": 2,
+      "x": -8,
+      "name": "Spurian Cadet Academy, Elindale's Forest.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8377,
+          "direction": "ne"
+        },
+        {
+          "to": 8385,
+          "direction": "nw"
+        },
+        {
+          "to": 8379,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8379,
+      "special_exits": [],
+      "flags": [],
+      "y": 1,
+      "x": -9,
+      "name": "Spurian Cadet Academy, Swimming Pond Entrance.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8378,
+          "direction": "ne"
+        },
+        {
+          "to": 8384,
+          "direction": "nw"
+        },
+        {
+          "to": 8380,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8380,
+      "special_exits": [],
+      "flags": [
+        "underground"
+      ],
+      "y": -1,
+      "x": -10,
+      "name": "Spurian Cadet Academy, Pondside.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8379,
+          "direction": "ne"
+        },
+        {
+          "to": 8381,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8381,
+      "special_exits": [],
+      "flags": [
+        "underground"
+      ],
+      "y": -1,
+      "x": -11,
+      "name": "Spurian Cadet Academy, Swimming Pond.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8380,
+          "direction": "e"
+        },
+        {
+          "to": 8382,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Swamp/Marsh",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8382,
+      "special_exits": [],
+      "flags": [
+        "underground"
+      ],
+      "y": 1,
+      "x": -12,
+      "name": "Spurian Cadet Academy, Swimming Pond.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8383,
+          "direction": "ne"
+        },
+        {
+          "to": 8381,
+          "direction": "se"
+        }
+      ],
+      "environment": "Freshwater",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8383,
+      "special_exits": [],
+      "flags": [
+        "underground"
+      ],
+      "y": 2,
+      "x": -11,
+      "name": "Spurian Cadet Academy, Swimming Pond.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8384,
+          "direction": "e"
+        },
+        {
+          "to": 8382,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Swamp/Marsh",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8384,
+      "special_exits": [],
+      "flags": [
+        "underground"
+      ],
+      "y": 2,
+      "x": -10,
+      "name": "Spurian Cadet Academy, Pondside.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8379,
+          "direction": "se"
+        },
+        {
+          "to": 8383,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8385,
+      "special_exits": [],
+      "flags": [],
+      "y": 3,
+      "x": -9,
+      "name": "Spurian Cadet Academy, Elindale's Forest.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8386,
+          "direction": "nw"
+        },
+        {
+          "to": 8378,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8386,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": -10,
+      "name": "Spurian Cadet Academy, Elindale's Forest.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8387,
+          "direction": "n"
+        },
+        {
+          "to": 8385,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8387,
+      "special_exits": [],
+      "flags": [],
+      "y": 5,
+      "x": -10,
+      "name": "Spurian Cadet Academy, Elindale's Forest.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8388,
+          "direction": "ne"
+        },
+        {
+          "to": 8386,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8388,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": -9,
+      "name": "Spurian Cadet Academy, Elindale's Forest.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8389,
+          "direction": "ne"
+        },
+        {
+          "to": 8391,
+          "direction": "nw"
+        },
+        {
+          "to": 8387,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8389,
+      "special_exits": [],
+      "flags": [],
+      "y": 7,
+      "x": -8,
+      "name": "Spurian Cadet Academy, Elindale's Forest.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8374,
+          "direction": "se"
+        },
+        {
+          "to": 8388,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8390,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": -1,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8423,
+          "direction": "se"
+        },
+        {
+          "to": 8416,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8391,
+      "special_exits": [],
+      "flags": [],
+      "y": 7,
+      "x": -10,
+      "name": "Spurian Cadet Academy, Pathway.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8392,
+          "direction": "ne"
+        },
+        {
+          "to": 10537,
+          "direction": "nw"
+        },
+        {
+          "to": 8388,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8392,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": -9,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8411,
+          "direction": "ne"
+        },
+        {
+          "to": 8393,
+          "direction": "nw"
+        },
+        {
+          "to": 8391,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8393,
+      "special_exits": [],
+      "flags": [],
+      "y": 9,
+      "x": -10,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8394,
+          "direction": "n"
+        },
+        {
+          "to": 8392,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8394,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": -10,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8395,
+          "direction": "ne"
+        },
+        {
+          "to": 8393,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8395,
+      "special_exits": [],
+      "flags": [],
+      "y": 11,
+      "x": -9,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8396,
+          "direction": "n"
+        },
+        {
+          "to": 8397,
+          "direction": "nw"
+        },
+        {
+          "to": 8394,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8396,
+      "special_exits": [],
+      "flags": [],
+      "y": 12,
+      "x": -9,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8395,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8397,
+      "special_exits": [],
+      "flags": [],
+      "y": 12,
+      "x": -10,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8398,
+          "direction": "ne"
+        },
+        {
+          "to": 8395,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8398,
+      "special_exits": [],
+      "flags": [],
+      "y": 13,
+      "x": -9,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8399,
+          "direction": "e"
+        },
+        {
+          "to": 8397,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8399,
+      "special_exits": [],
+      "flags": [],
+      "y": 13,
+      "x": -8,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8400,
+          "direction": "se"
+        },
+        {
+          "to": 8398,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8400,
+      "special_exits": [],
+      "flags": [],
+      "y": 12,
+      "x": -7,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8401,
+          "direction": "e"
+        },
+        {
+          "to": 8399,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8401,
+      "special_exits": [],
+      "flags": [],
+      "y": 12,
+      "x": -6,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8402,
+          "direction": "ne"
+        },
+        {
+          "to": 8405,
+          "direction": "s"
+        },
+        {
+          "to": 8400,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8402,
+      "special_exits": [],
+      "flags": [],
+      "y": 13,
+      "x": -5,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8403,
+          "direction": "se"
+        },
+        {
+          "to": 8401,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8403,
+      "special_exits": [],
+      "flags": [],
+      "y": 12,
+      "x": -4,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8402,
+          "direction": "nw"
+        },
+        {
+          "to": 8404,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8404,
+      "special_exits": [],
+      "flags": [],
+      "y": 11,
+      "x": -5,
+      "name": "Spurian Training Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8403,
+          "direction": "ne"
+        },
+        {
+          "to": 8406,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8405,
+      "special_exits": [],
+      "flags": [],
+      "y": 11,
+      "x": -6,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8401,
+          "direction": "n"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8406,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": -4,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8404,
+          "direction": "nw"
+        },
+        {
+          "to": 8407,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8407,
+      "special_exits": [],
+      "flags": [],
+      "y": 9,
+      "x": -4,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8406,
+          "direction": "n"
+        },
+        {
+          "to": 8408,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8408,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": -5,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8407,
+          "direction": "ne"
+        },
+        {
+          "to": 8412,
+          "direction": "se"
+        },
+        {
+          "to": 8409,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8409,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": -6,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8408,
+          "direction": "e"
+        },
+        {
+          "to": 8410,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8410,
+      "special_exits": [],
+      "flags": [],
+      "y": 9,
+      "x": -7,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8409,
+          "direction": "se"
+        },
+        {
+          "to": 8411,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8411,
+      "special_exits": [],
+      "flags": [],
+      "y": 9,
+      "x": -8,
+      "name": "Spurian Cadet Academy, Dormitory.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8410,
+          "direction": "e"
+        },
+        {
+          "to": 8392,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8412,
+      "special_exits": [],
+      "flags": [],
+      "y": 7,
+      "x": -4,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8414,
+          "direction": "e"
+        },
+        {
+          "to": 8413,
+          "direction": "ne"
+        },
+        {
+          "to": 8408,
+          "direction": "nw"
+        },
+        {
+          "to": 8415,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8413,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": -3,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8417,
+          "direction": "e"
+        },
+        {
+          "to": 8416,
+          "direction": "ne"
+        },
+        {
+          "to": 8412,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8414,
+      "special_exits": [],
+      "flags": [],
+      "y": 7,
+      "x": -3,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8418,
+          "direction": "e"
+        },
+        {
+          "to": 8412,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8415,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": -3,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8419,
+          "direction": "e"
+        },
+        {
+          "to": 8418,
+          "direction": "ne"
+        },
+        {
+          "to": 8412,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8416,
+      "special_exits": [],
+      "flags": [],
+      "y": 9,
+      "x": -2,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8420,
+          "direction": "e"
+        },
+        {
+          "to": 8390,
+          "direction": "ne"
+        },
+        {
+          "to": 8413,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8417,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": -2,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8421,
+          "direction": "e"
+        },
+        {
+          "to": 8413,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8418,
+      "special_exits": [],
+      "flags": [],
+      "y": 7,
+      "x": -2,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8422,
+          "direction": "e"
+        },
+        {
+          "to": 8421,
+          "direction": "ne"
+        },
+        {
+          "to": 8415,
+          "direction": "sw"
+        },
+        {
+          "to": 8414,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8419,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": -2,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8422,
+          "direction": "ne"
+        },
+        {
+          "to": 8415,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8420,
+      "special_exits": [],
+      "flags": [],
+      "y": 9,
+      "x": -1,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8423,
+          "direction": "e"
+        },
+        {
+          "to": 8416,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8421,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": -1,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8424,
+          "direction": "e"
+        },
+        {
+          "to": 8423,
+          "direction": "ne"
+        },
+        {
+          "to": 8418,
+          "direction": "sw"
+        },
+        {
+          "to": 8417,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8422,
+      "special_exits": [],
+      "flags": [],
+      "y": 7,
+      "x": -1,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8425,
+          "direction": "e"
+        },
+        {
+          "to": 8426,
+          "direction": "se"
+        },
+        {
+          "to": 8419,
+          "direction": "sw"
+        },
+        {
+          "to": 8418,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8423,
+      "special_exits": [],
+      "flags": [],
+      "y": 9,
+      "x": 0,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8390,
+          "direction": "nw"
+        },
+        {
+          "to": 8427,
+          "direction": "se"
+        },
+        {
+          "to": 8421,
+          "direction": "sw"
+        },
+        {
+          "to": 8420,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8424,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": 0,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8427,
+          "direction": "e"
+        },
+        {
+          "to": 8421,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8425,
+      "special_exits": [],
+      "flags": [],
+      "y": 7,
+      "x": 0,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8428,
+          "direction": "e"
+        },
+        {
+          "to": 8422,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8426,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 0,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8429,
+          "direction": "e"
+        },
+        {
+          "to": 8422,
+          "direction": "nw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8427,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": 1,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8423,
+          "direction": "nw"
+        },
+        {
+          "to": 8430,
+          "direction": "se"
+        },
+        {
+          "to": 8424,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8428,
+      "special_exits": [],
+      "flags": [],
+      "y": 7,
+      "x": 1,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8430,
+          "direction": "e"
+        },
+        {
+          "to": 8425,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8429,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 1,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8430,
+          "direction": "ne"
+        },
+        {
+          "to": 8426,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 8430,
+      "special_exits": [],
+      "flags": [],
+      "y": 7,
+      "x": 2,
+      "name": "Spurian Cadet Academy, Arena.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 8427,
+          "direction": "nw"
+        },
+        {
+          "to": 8429,
+          "direction": "sw"
+        },
+        {
+          "to": 8428,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9006,
+      "special_exits": [],
+      "flags": [
+        "dark",
+        "indoor",
+        "underground"
+      ],
+      "y": -3,
+      "x": -1,
+      "name": "Wizzy's Office.",
+      "z": 0,
+      "exits": [],
+      "environment": "Rocky/Mountains",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9441,
+      "special_exits": [
+        {
+          "command": "go gate",
+          "to": 9443
+        }
+      ],
+      "flags": [],
+      "y": 4,
+      "x": 0,
+      "name": "Spurian Cadet Academy.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 214,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9443,
+      "special_exits": [
+        {
+          "command": "go gate",
+          "to": 9441
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 4,
+      "x": 3,
+      "name": "Spurian Cadet Academy, Keep Entrance.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9444,
+          "direction": "e"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9444,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 4,
+      "x": 4,
+      "name": "Spurian Cadet Academy, Keep Entrance.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9445,
+          "direction": "e"
+        },
+        {
+          "to": 9443,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9445,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 4,
+      "x": 5,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9446,
+          "direction": "s"
+        },
+        {
+          "to": 9444,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9446,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": 5,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9445,
+          "direction": "n"
+        },
+        {
+          "to": 9447,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9447,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 2,
+      "x": 5,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9448,
+          "direction": "e"
+        },
+        {
+          "to": 9446,
+          "direction": "n"
+        },
+        {
+          "to": 9462,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9448,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 2,
+      "x": 6,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9449,
+          "direction": "e"
+        },
+        {
+          "to": 9447,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9449,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 2,
+      "x": 7,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9450,
+          "direction": "e"
+        },
+        {
+          "to": 9448,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9450,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 2,
+      "x": 8,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9451,
+          "direction": "s"
+        },
+        {
+          "to": 9449,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9451,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 1,
+      "x": 8,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9450,
+          "direction": "n"
+        },
+        {
+          "to": 9452,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9452,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": 8,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9451,
+          "direction": "n"
+        },
+        {
+          "to": 9453,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9453,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": 7,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9452,
+          "direction": "e"
+        },
+        {
+          "to": 9454,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9454,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -2,
+      "x": 7,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9453,
+          "direction": "n"
+        },
+        {
+          "to": 9455,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9455,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -3,
+      "x": 8,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9454,
+          "direction": "nw"
+        },
+        {
+          "to": 9456,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9456,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -3,
+      "x": 7,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9455,
+          "direction": "e"
+        },
+        {
+          "to": 9457,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9457,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -3,
+      "x": 6,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9456,
+          "direction": "e"
+        },
+        {
+          "to": 9458,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9458,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -3,
+      "x": 5,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9457,
+          "direction": "e"
+        },
+        {
+          "to": 9459,
+          "direction": "ne"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9459,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -2,
+      "x": 6,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9460,
+          "direction": "n"
+        },
+        {
+          "to": 9458,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9460,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": 6,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9459,
+          "direction": "s"
+        },
+        {
+          "to": 9461,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9461,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": 5,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9460,
+          "direction": "e"
+        },
+        {
+          "to": 9462,
+          "direction": "n"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 9462,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 1,
+      "x": 5,
+      "name": "Shadowy Paths of Taath.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 9447,
+          "direction": "n"
+        },
+        {
+          "to": 9461,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10480,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -8,
+      "x": 3,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10481,
+          "direction": "n"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10481,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -7,
+      "x": 3,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11205,
+          "direction": "n"
+        },
+        {
+          "to": 10480,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10487,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 0,
+      "x": 3,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10516,
+          "direction": "n"
+        },
+        {
+          "to": 11932,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10494,
+      "special_exits": [],
+      "flags": [],
+      "y": 5,
+      "x": 12,
+      "name": "Shadowy Alley.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10502,
+          "direction": "e"
+        },
+        {
+          "to": 10506,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10495,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 13,
+      "name": "Dark Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10502,
+          "direction": "s"
+        },
+        {
+          "to": 10499,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10496,
+      "special_exits": [
+        {
+          "command": "go hole",
+          "to": 10499
+        },
+        {
+          "command": "go lad",
+          "to": 10497
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 8,
+      "x": 12,
+      "name": "Abandoned Store.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10497,
+      "special_exits": [
+        {
+          "command": "go lad",
+          "to": 10496
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 7,
+      "x": 12,
+      "name": "Abandoned Store Loft.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10498,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 11,
+      "name": "Dark Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10499,
+          "direction": "e"
+        },
+        {
+          "to": 10500,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10499,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 12,
+      "name": "Dark Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10495,
+          "direction": "e"
+        },
+        {
+          "to": 10498,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10500,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 10,
+      "name": "Dark Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10498,
+          "direction": "e"
+        },
+        {
+          "to": 10507,
+          "direction": "s"
+        },
+        {
+          "to": 10508,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10502,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 10503
+        }
+      ],
+      "flags": [],
+      "y": 5,
+      "x": 13,
+      "name": "Shadowy Alley.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10495,
+          "direction": "n"
+        },
+        {
+          "to": 10494,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10503,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 10502
+        },
+        {
+          "command": "go stair",
+          "to": 10504
+        }
+      ],
+      "flags": [],
+      "y": 4,
+      "x": 13,
+      "name": "Abandoned Building.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10504,
+      "special_exits": [
+        {
+          "command": "go stair",
+          "to": 10503
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 4,
+      "x": 14,
+      "name": "Damp Basement.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10505,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 8,
+      "name": "Dark Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10508,
+          "direction": "e"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10506,
+      "special_exits": [],
+      "flags": [],
+      "y": 5,
+      "x": 11,
+      "name": "Shadowy Alley.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10494,
+          "direction": "e"
+        },
+        {
+          "to": 10507,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10507,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 10509
+        }
+      ],
+      "flags": [],
+      "y": 5,
+      "x": 10,
+      "name": "Shadowy Alley.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10506,
+          "direction": "e"
+        },
+        {
+          "to": 10500,
+          "direction": "n"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10508,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 9,
+      "name": "Dark Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10500,
+          "direction": "e"
+        },
+        {
+          "to": 10505,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10509,
+      "special_exits": [
+        {
+          "command": "go door",
+          "to": 10507
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 5,
+      "x": 9,
+      "name": "Abandoned Hovel.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10516,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 1,
+      "x": 3,
+      "name": "Lightfinger's Retreat.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10487,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10532,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": -12,
+      "name": "Open field.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10533,
+          "direction": "e"
+        },
+        {
+          "to": 10534,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10533,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": -11,
+      "name": "Open Field.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10535,
+          "direction": "s"
+        },
+        {
+          "to": 10532,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10534,
+      "special_exits": [],
+      "flags": [],
+      "y": 9,
+      "x": -12,
+      "name": "Open Field.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10535,
+          "direction": "e"
+        },
+        {
+          "to": 10532,
+          "direction": "n"
+        },
+        {
+          "to": 10536,
+          "direction": "s"
+        },
+        {
+          "to": 10537,
+          "direction": "se"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10535,
+      "special_exits": [],
+      "flags": [],
+      "y": 9,
+      "x": -11,
+      "name": "Open Field.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10533,
+          "direction": "n"
+        },
+        {
+          "to": 10534,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10536,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": -12,
+      "name": "Open Field.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10537,
+          "direction": "e"
+        },
+        {
+          "to": 10534,
+          "direction": "n"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10537,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": -11,
+      "name": "Open Field.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10534,
+          "direction": "nw"
+        },
+        {
+          "to": 8391,
+          "direction": "se"
+        },
+        {
+          "to": 10536,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10538,
+      "special_exits": [
+        {
+          "command": "go exit",
+          "to": 10542
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": 2,
+      "name": "Calind's \"Cut Above\" Shoppe.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10539,
+      "special_exits": [
+        {
+          "command": "go exit",
+          "to": 10542
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": 1,
+      "name": "Academy Pawn.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10540,
+      "special_exits": [
+        {
+          "command": "go exit",
+          "to": 10542
+        }
+      ],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": 3,
+      "name": "The Cadet Club.",
+      "z": 0,
+      "exits": [],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10541,
+      "special_exits": [],
+      "flags": [],
+      "y": 5,
+      "x": 0,
+      "name": "Spurian Cadet Academy, New Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10542,
+          "direction": "e"
+        },
+        {
+          "to": 214,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10542,
+      "special_exits": [
+        {
+          "command": "go pawn",
+          "to": 10539
+        },
+        {
+          "command": "go store",
+          "to": 10538
+        },
+        {
+          "command": "go tav",
+          "to": 10540
+        }
+      ],
+      "flags": [],
+      "y": 5,
+      "x": 1,
+      "name": "Spurian Cadet Academy, Hunter's Square.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11933,
+          "direction": "e"
+        },
+        {
+          "to": 10543,
+          "direction": "ne"
+        },
+        {
+          "to": 10541,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10543,
+      "special_exits": [
+        {
+          "command": "go gate",
+          "to": 10556
+        }
+      ],
+      "flags": [],
+      "y": 6,
+      "x": 2,
+      "name": "Spurian Cadet Academy, Cemetery Entrance.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10542,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10545,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": 5,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10547,
+          "direction": "e"
+        },
+        {
+          "to": 10550,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10546,
+      "special_exits": [],
+      "flags": [],
+      "y": 9,
+      "x": 4,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10550,
+          "direction": "n"
+        },
+        {
+          "to": 10555,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10547,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": 6,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10551,
+          "direction": "ne"
+        },
+        {
+          "to": 10552,
+          "direction": "s"
+        },
+        {
+          "to": 10554,
+          "direction": "sw"
+        },
+        {
+          "to": 10545,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10549,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": 5,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10553,
+          "direction": "e"
+        },
+        {
+          "to": 10555,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10550,
+      "special_exits": [],
+      "flags": [],
+      "y": 10,
+      "x": 4,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10545,
+          "direction": "e"
+        },
+        {
+          "to": 10546,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10551,
+      "special_exits": [],
+      "flags": [],
+      "y": 11,
+      "x": 7,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10547,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10552,
+      "special_exits": [],
+      "flags": [],
+      "y": 9,
+      "x": 6,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10547,
+          "direction": "n"
+        },
+        {
+          "to": 10553,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10553,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": 6,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10552,
+          "direction": "n"
+        },
+        {
+          "to": 10549,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10554,
+      "special_exits": [],
+      "flags": [],
+      "y": 9,
+      "x": 5,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10547,
+          "direction": "ne"
+        },
+        {
+          "to": 10555,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10555,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": 4,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10549,
+          "direction": "e"
+        },
+        {
+          "to": 10546,
+          "direction": "n"
+        },
+        {
+          "to": 10554,
+          "direction": "ne"
+        },
+        {
+          "to": 10557,
+          "direction": "s"
+        },
+        {
+          "to": 10558,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10556,
+      "special_exits": [
+        {
+          "command": "go gate",
+          "to": 10543
+        }
+      ],
+      "flags": [],
+      "y": 7,
+      "x": 3,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10557,
+          "direction": "e"
+        },
+        {
+          "to": 10558,
+          "direction": "n"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10557,
+      "special_exits": [],
+      "flags": [],
+      "y": 7,
+      "x": 4,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10555,
+          "direction": "n"
+        },
+        {
+          "to": 10556,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10558,
+      "special_exits": [],
+      "flags": [],
+      "y": 8,
+      "x": 3,
+      "name": "Old Cemetery.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10555,
+          "direction": "e"
+        },
+        {
+          "to": 10556,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 10559,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 3,
+      "x": -3,
+      "name": "Healers Shack, Back Room.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 184,
+          "direction": "e"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11199,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -5,
+      "x": 2,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11200,
+          "direction": "n"
+        },
+        {
+          "to": 171,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11200,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -4,
+      "x": 2,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11201,
+          "direction": "n"
+        },
+        {
+          "to": 11199,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11201,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -3,
+      "x": 2,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11202,
+          "direction": "n"
+        },
+        {
+          "to": 11200,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11202,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -2,
+      "x": 2,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11203,
+          "direction": "n"
+        },
+        {
+          "to": 11201,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11203,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": 2,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11204,
+          "direction": "n"
+        },
+        {
+          "to": 11202,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11204,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 0,
+      "x": 2,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 172,
+          "direction": "n"
+        },
+        {
+          "to": 11203,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11205,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -6,
+      "x": 3,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11206,
+          "direction": "n"
+        },
+        {
+          "to": 10481,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11206,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -5,
+      "x": 3,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11207,
+          "direction": "n"
+        },
+        {
+          "to": 11205,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11207,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -4,
+      "x": 3,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11930,
+          "direction": "n"
+        },
+        {
+          "to": 11206,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11930,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -3,
+      "x": 3,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11931,
+          "direction": "n"
+        },
+        {
+          "to": 11207,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11931,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -2,
+      "x": 3,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 11932,
+          "direction": "n"
+        },
+        {
+          "to": 11930,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11932,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": 3,
+      "name": "Training Grounds.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10487,
+          "direction": "n"
+        },
+        {
+          "to": 11931,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11933,
+      "special_exits": [],
+      "flags": [],
+      "y": 5,
+      "x": 2,
+      "name": "Shadowy Alley.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 10542,
+          "direction": "w"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11934,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": 1,
+      "x": -3,
+      "name": "Target Room.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 38,
+          "direction": "s"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 11935,
+      "special_exits": [],
+      "flags": [
+        "indoor"
+      ],
+      "y": -1,
+      "x": -3,
+      "name": "Target Room.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 38,
+          "direction": "n"
+        }
+      ],
+      "environment": "Rocky/Mountains",
+      "partition": "1",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 12653,
+      "special_exits": [],
+      "flags": [],
+      "y": 2,
+      "x": 4,
+      "name": "Sonnet Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 1448,
+          "direction": "ne"
+        },
+        {
+          "to": 1433,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 12654,
+      "special_exits": [],
+      "flags": [],
+      "y": 4,
+      "x": 6,
+      "name": "Sonnet Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 12655,
+          "direction": "ne"
+        },
+        {
+          "to": 1448,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 12655,
+      "special_exits": [],
+      "flags": [],
+      "y": 5,
+      "x": 7,
+      "name": "Sonnet Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 12656,
+          "direction": "ne"
+        },
+        {
+          "to": 12654,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    },
+    {
+      "poi": [],
+      "id": 12656,
+      "special_exits": [],
+      "flags": [],
+      "y": 6,
+      "x": 8,
+      "name": "Gateway, Sonnet Street.",
+      "z": 0,
+      "exits": [
+        {
+          "to": 12655,
+          "direction": "sw"
+        }
+      ],
+      "environment": "Plains/Grasslands",
+      "partition": "area:2",
+      "area": "1"
+    }
+  ],
+  "format": "DragonsGateHUD-map",
+  "schema": 1,
+  "provenance": {
+    "verified": false,
+    "artifact_id": "submission:20260926-081756:all-20260926-081756",
+    "selection": {
+      "scope": "all"
+    },
+    "scope": "all",
+    "author": "Wizzy Dizzy",
+    "slug": "all-20260926-081756",
+    "publisher": "wizzy-dizzy",
+    "submission_id": "e5f5b6ea-39d2-4743-9b4c-5fd36cc52e51"
+  },
+  "title": "all-20260926-081756",
+  "description": "",
+  "version": "1.0.0"
+}
