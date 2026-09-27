@@ -1,0 +1,10 @@
+{
+  "request_id": "2a0049f0-9c5e-495a-99f5-aeb95a905709",
+  "component": "user_feedback",
+  "edition": "player",
+  "version": "0.2.170",
+  "mudlet_version": "table: 000001768caf1580",
+  "message": "Automatic mapper diagnostic",
+  "details": "Type: feedback\nDescription:\nDGHUD mapper diagnostic v1\ngenerated_epoch=1788795599\nhud_version=0.2.170\nedition=player\nmudlet_version=table: 000001768caf0ae0\nmapper_enabled=true\ncurrent_room=none\nowned_room_count=145\nowned_area_count=2\npending_cleanup=none\nwalking=false\npending_automap=false\npending_special=false\nlast_status=none\nlast_error=none\nwalk_timeout=12\nspecial_timeout=12\nsubmap_gate=true\nsubmap_portal=true\nsubmap_door=true\nsubmap_arch=true\nsubmap_path=true\nsubmap_other=true\nevents=0\nprivacy=No credentials, chat, room descriptions, character name, IP address, or command history included.",
+  "privacy_notice": "Submitted anonymously after player consent. Sanitized by the HUD and validated by the service."
+}
