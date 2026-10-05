@@ -1,12 +1,40 @@
-# Publishing a map
+# Contributing a map
 
-1. Choose a lowercase map name containing only letters, numbers, `_`, or `-`.
-2. In Mudlet, run `dghud map export <map-name> <github-name>`.
-3. Run `dghud map folder` to reveal the generated JSON file. Exporting creates a local file; it does not upload it.
-4. Fork this repository and upload the file at `maps/<github-name>/<map-name>.json`. The folder and filename must exactly match the publisher and map name used during export.
-5. Run `python3 tools/validate_maps.py` from the repository root so `catalog.json` includes the map.
-6. Commit both the map JSON and updated `catalog.json`, then open a pull request. Automated checks validate room IDs, coordinates, exits, provenance, and the catalog before the map can be merged and downloaded in the HUD.
+Applies to DGHUD v0.3.89.
 
-Imported maps are editable local stashes. Publish changes under your own GitHub folder. Keep the generated `derived_from` object so the original map remains credited.
+## Submit through the HUD
 
-Room IDs are the canonical numeric IDs supplied by Dragons Gate GMCP. Mudlet can have only one active room per numeric ID, so the HUD previews conflicts and asks whether to keep the local room, use the imported room, or skip its entire area.
+You do not need a GitHub account to share a map.
+
+1. Open **OPTIONS → MAP SETTINGS → MAP LIBRARY**, or enter `dghud map library`.
+2. Under **MY MAPS**, select the collection you want to submit.
+3. Click **SHARE SELECTED MAP**. The HUD switches to that collection if necessary and submits it for owner review.
+4. Read the status message. A successful submission is awaiting review; it becomes available for download after validation, approval, and merge.
+
+The HUD uses your current in-game character name as creator and generates the publisher label and map filename automatically. There is no separate GitHub sign-in or name-entry step. Map creator attribution is included in the submission.
+
+Downloaded collections are editable. To submit an improved version, use your editable copy, select the original entry in **SHARED LIBRARY**, and choose **UPLOAD MY VERSION**. The copy must retain its link to that library entry. Your submission is a separate version for review and does not replace the original creator's public file.
+
+## Keep a private backup
+
+- **MY MAPS → BACKUP** creates another local collection, which you can select later with **USE**.
+- `dghud map export <map-name> <publisher>` also saves a local JSON file. Use a lowercase map name starting with a letter or number and containing only letters, numbers, `_`, or `-`; use a publisher label containing letters, numbers, or hyphens. The publisher label does not have to be a GitHub account. `dghud map folder` opens the export folder.
+
+These backup actions do not upload a map or request public listing. Use a **SHARE** action when you intend to contribute.
+
+## Review before sharing
+
+Check map names, room placement, connections, and special-travel commands. Maps contain room data and creator attribution; do not add secrets or private information to map names or commands.
+
+Room IDs are the permanent numeric IDs supplied by Dragons Gate GMCP. When combining maps with **ADD TO CURRENT MAP**, **CURRENT MAP WINS** keeps your overlapping rooms, **DOWNLOADED MAP WINS** uses the incoming rooms, and **SKIP COLLISIONS** skips overlapping areas. **CREATE COMBINED MAP** creates a separate collection. **DOWNLOAD AS NEW** keeps maps separate; **REPLACE CURRENT** intentionally replaces the active collection after a warning and automatic backup.
+
+## Optional manual contribution
+
+Experienced contributors can still open a pull request:
+
+1. Export a map and place its JSON at `maps/<publisher>/<map-name>.json`. The folder and filename must match the exported publisher and slug.
+2. Preserve any existing `derived_from` attribution when preparing a revision, and contribute it under your own publisher label.
+3. Run `python3 tools/validate_maps.py` from the repository root. This validates maps and regenerates both `catalog.json` and `catalog-v2.json`.
+4. Include the map JSON and both updated catalogs in the pull request. Passing checks and owner approval are required before merge and public download listing.
+
+See the [DGHUD how-to guide](https://github.com/wizzydizzy-ctrl/dragons-gate-player-hud/blob/main/docs/DGHUD_GUIDE.md) and [automapper and map library guide](https://github.com/wizzydizzy-ctrl/dragons-gate-player-hud/blob/main/docs/AUTOMAPPER_AND_MAP_LIBRARY.md) for the full map workflow.
